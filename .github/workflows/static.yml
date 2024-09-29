@@ -42,7 +42,7 @@ jobs:
         run: flutter pub get
       - name: Flutter Build Web
         working-directory: ${{ github.workspace }}/denden_homepage
-        run: flutter build web --web-renderer html --base-href /${{ steps.version.outputs.repository }}/
+        run: flutter build web --web-renderer html --base-href /denden_homepage/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
