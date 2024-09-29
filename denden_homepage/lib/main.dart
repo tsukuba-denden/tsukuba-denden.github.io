@@ -12,8 +12,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: '部活名',
       theme: ThemeData(
-        useMaterial3: true, // Material Design 3を有効化
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        useMaterial3: true, // Material Design 3を有効にする
+        colorSchemeSeed: Colors.blue, // カラーテーマを設定
       ),
       home: const MyHomePage(),
     );
@@ -27,77 +27,111 @@ class MyHomePage extends StatefulWidget {
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage>
-    with SingleTickerProviderStateMixin {
-  late TabController _tabController;
+class _MyHomePageState extends State<MyHomePage> {
+  int _selectedIndex = 0;
 
-  @override
-  void initState() {
-    super.initState();
-    _tabController = TabController(length: 3, vsync: this);
-  }
-
-  @override
-  void dispose() {
-    _tabController.dispose();
-    super.dispose();
-  }
+  final List<Widget> _pages = [
+    const ActivitiesPage(),
+    const WorksPage(),
+    const HistoryPage(),
+  ];
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('部活名ホームページ'),
-        bottom: TabBar(
-          controller: _tabController,
-          tabs: const [
-            Tab(text: '活動内容'),
-            Tab(text: '作品・功績紹介'),
-            Tab(text: 'SNS'),
-          ],
-        ),
-      ),
-      body: TabBarView(
-        controller: _tabController,
-        children: const [
-          ActivitiesTab(),
-          WorksTab(),
-          SNSTab(),
-        ],
-      ),
+    return LayoutBuilder(
+      // レスポンシブデザインを実現
+      builder: (context, constraints) {
+        return Scaffold(
+          appBar: AppBar(
+            title: const Text('部活名ホームページ'),
+          ),
+          // 画面サイズに応じてNavigation RailまたはBottomNavigationBarを表示
+          body: Row(
+            children: [
+              if (constraints.maxWidth >= 600) // 画面幅が600px以上の場合
+                NavigationRail(
+                  selectedIndex: _selectedIndex,
+                  onDestinationSelected: (index) {
+                    setState(() {
+                      _selectedIndex = index;
+                    });
+                  },
+                  labelType: NavigationRailLabelType.all,
+                  destinations: const [
+                    NavigationRailDestination(
+                      icon: Icon(Icons.sports),
+                      label: Text('活動内容'),
+                    ),
+                    NavigationRailDestination(
+                      icon: Icon(Icons.star),
+                      label: Text('作品・功績紹介'),
+                    ),
+                    NavigationRailDestination(
+                      icon: Icon(Icons.history),
+                      label: Text('歴史'),
+                    ),
+                  ],
+                ),
+              Expanded(
+                // 残りのスペースをコンテンツに割り当てる
+                child: _pages[_selectedIndex],
+              ),
+            ],
+          ),
+          bottomNavigationBar: constraints.maxWidth < 600 // 画面幅が600px未満の場合
+              ? BottomNavigationBar(
+                  currentIndex: _selectedIndex,
+                  onTap: (index) {
+                    setState(() {
+                      _selectedIndex = index;
+                    });
+                  },
+                  items: const [
+                    BottomNavigationBarItem(
+                      icon: Icon(Icons.sports),
+                      label: '活動内容',
+                    ),
+                    BottomNavigationBarItem(
+                      icon: Icon(Icons.star),
+                      label: '作品・功績',
+                    ),
+                    BottomNavigationBarItem(
+                      icon: Icon(Icons.history),
+                      label: '歴史',
+                    ),
+                  ],
+                )
+              : null,
+        );
+      },
     );
   }
 }
 
-class ActivitiesTab extends StatelessWidget {
-  const ActivitiesTab({super.key});
+// 各ページの内容
+class ActivitiesPage extends StatelessWidget {
+  const ActivitiesPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text('活動内容'),
-    );
+    return const Center(child: Text('活動内容ページ'));
   }
 }
 
-class WorksTab extends StatelessWidget {
-  const WorksTab({super.key});
+class WorksPage extends StatelessWidget {
+  const WorksPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text('作品・功績紹介'),
-    );
+    return const Center(child: Text('作品・功績紹介ページ'));
   }
 }
 
-class SNSTab extends StatelessWidget {
-  const SNSTab({super.key});
+class HistoryPage extends StatelessWidget {
+  const HistoryPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text('SNS'),
-    );
+    return const Center(child: Text('歴史ページ'));
   }
 }
