@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: '部活名',
       theme: ThemeData(
-        useMaterial3: true, // Material Design 3を有効にする
+        useMaterial3: true, // Material Design 3 を有効にする
         colorSchemeSeed: Colors.blue, // カラーテーマを設定
       ),
       home: const MyHomePage(),
@@ -30,85 +30,86 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
 
-  final List<Widget> _pages = [
-    const ActivitiesPage(),
-    const WorksPage(),
-    const HistoryPage(),
+  static const List<Widget> _widgetOptions = <Widget>[
+    ActivitiesPage(), // 活動内容ページ
+    AchievementsPage(), // 作品・功績紹介ページ
+    HistoryPage(), // 歴史ページ
   ];
+
+  void _onItemTapped(int index) {
+    setState(() {
+      _selectedIndex = index;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(
-      // レスポンシブデザインを実現
-      builder: (context, constraints) {
-        return Scaffold(
-          appBar: AppBar(
-            title: const Text('部活名ホームページ'),
-          ),
-          // 画面サイズに応じてNavigation RailまたはBottomNavigationBarを表示
-          body: Row(
-            children: [
-              if (constraints.maxWidth >= 600) // 画面幅が600px以上の場合
-                NavigationRail(
-                  selectedIndex: _selectedIndex,
-                  onDestinationSelected: (index) {
-                    setState(() {
-                      _selectedIndex = index;
-                    });
-                  },
-                  labelType: NavigationRailLabelType.all,
-                  destinations: const [
-                    NavigationRailDestination(
-                      icon: Icon(Icons.sports),
-                      label: Text('活動内容'),
-                    ),
-                    NavigationRailDestination(
-                      icon: Icon(Icons.star),
-                      label: Text('作品・功績紹介'),
-                    ),
-                    NavigationRailDestination(
-                      icon: Icon(Icons.history),
-                      label: Text('歴史'),
-                    ),
-                  ],
-                ),
-              Expanded(
-                // 残りのスペースをコンテンツに割り当てる
-                child: _pages[_selectedIndex],
-              ),
-            ],
-          ),
-          bottomNavigationBar: constraints.maxWidth < 600 // 画面幅が600px未満の場合
-              ? BottomNavigationBar(
-                  currentIndex: _selectedIndex,
-                  onTap: (index) {
-                    setState(() {
-                      _selectedIndex = index;
-                    });
-                  },
-                  items: const [
-                    BottomNavigationBarItem(
-                      icon: Icon(Icons.sports),
-                      label: '活動内容',
-                    ),
-                    BottomNavigationBarItem(
-                      icon: Icon(Icons.star),
-                      label: '作品・功績',
-                    ),
-                    BottomNavigationBarItem(
-                      icon: Icon(Icons.history),
-                      label: '歴史',
-                    ),
-                  ],
-                )
-              : null,
-        );
-      },
-    );
+        builder: (BuildContext context, BoxConstraints constraints) {
+      // 画面の幅に応じてレイアウトを切り替える
+      bool isWideScreen = constraints.maxWidth >= 600;
+
+      return Scaffold(
+        appBar: AppBar(
+          title: const Text('部活名ホームページ'),
+        ),
+        body: isWideScreen
+            ? Row(
+                // ワイドスクリーンの場合: ナビゲーションを左に配置
+                children: <Widget>[
+                  NavigationRail(
+                    selectedIndex: _selectedIndex,
+                    onDestinationSelected: _onItemTapped,
+                    labelType: NavigationRailLabelType.all,
+                    destinations: const <NavigationRailDestination>[
+                      NavigationRailDestination(
+                        icon: Icon(Icons.sports_baseball),
+                        selectedIcon: Icon(Icons.sports_baseball_outlined),
+                        label: Text('活動内容'),
+                      ),
+                      NavigationRailDestination(
+                        icon: Icon(Icons.star),
+                        selectedIcon: Icon(Icons.star_outline),
+                        label: Text('作品・功績紹介'),
+                      ),
+                      NavigationRailDestination(
+                        icon: Icon(Icons.history),
+                        selectedIcon: Icon(Icons.history_outlined),
+                        label: Text('歴史'),
+                      ),
+                    ],
+                  ),
+                  const VerticalDivider(thickness: 1, width: 1),
+                  Expanded(child: _widgetOptions.elementAt(_selectedIndex)),
+                ],
+              )
+            : _widgetOptions.elementAt(_selectedIndex), // 狭い画面の場合: ナビゲーションを下に配置
+        bottomNavigationBar: !isWideScreen // ワイドスクリーンでない場合のみNavigationBarを表示
+            ? NavigationBar(
+                selectedIndex: _selectedIndex,
+                onDestinationSelected: _onItemTapped,
+                destinations: const <NavigationDestination>[
+                  NavigationDestination(
+                    icon: Icon(Icons.sports_baseball),
+                    label: '活動内容',
+                  ),
+                  NavigationDestination(
+                    icon: Icon(Icons.star),
+                    label: '作品・功績紹介',
+                  ),
+                  NavigationDestination(
+                    icon: Icon(Icons.history),
+                    label: '歴史',
+                  ),
+                ],
+              )
+            : null,
+      );
+    });
   }
 }
 
-// 各ページの内容
+// 各ページのWidget
 class ActivitiesPage extends StatelessWidget {
   const ActivitiesPage({super.key});
 
@@ -118,8 +119,8 @@ class ActivitiesPage extends StatelessWidget {
   }
 }
 
-class WorksPage extends StatelessWidget {
-  const WorksPage({super.key});
+class AchievementsPage extends StatelessWidget {
+  const AchievementsPage({super.key});
 
   @override
   Widget build(BuildContext context) {
