@@ -16,3 +16,5 @@ denden_homepage/lib/main.dartを編集する
 GitHub DesktopでPushする。たぶんCommit入力して押す→Pull押す→Push(同じ場所)押す
 
 https://zenn.dev/r0227n/articles/flutter_web_deploy_github_pages
+
+https://zenn.dev/cotlra/articles/flutter-github-pages
