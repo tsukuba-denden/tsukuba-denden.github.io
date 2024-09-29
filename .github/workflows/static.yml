@@ -31,23 +31,23 @@ jobs:
       - name: Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.3' # 最新の安定版を使うことをお勧めします。例: 'stable'
+          flutter-version: 'stable' # 最新の安定版を使うことをお勧めします
           channel: 'stable'
           cache: true
 
-      # 👇 プロジェクトディレクトリに移動
       - name: Change working directory
-        run: cd ${{ github.workspace }}/denden_homepage # <your-flutter-project-directory> を実際のプロジェクト名に置き換える
+        run: cd ${{ github.workspace }}/denden_homepage
 
       - run: flutter --version
       - run: flutter pub get
       - run: flutter build web --web-renderer html --base-href /${{ steps.version.outputs.repository }}/
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './build/web'
+          # 👇 正しいパスを指定
+          path: denden_homepage/build/web 
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
