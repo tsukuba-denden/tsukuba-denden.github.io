@@ -1,33 +1,27 @@
-name: GitHub Pages
+name: Deploy Flutter Web App
 
 on:
   push:
     branches:
-      - main  # Set a branch name to trigger deployment
-  pull_request:
+      - main
 
 jobs:
-  deploy:
-    runs-on: ubuntu-22.04
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '0.85.0'
-
-      - name: Build
-        run: hugo --minify
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
-        if: ${{ github.ref == 'refs/heads/main' }}
+          channel: stable  # or 'dev', 'beta', or a specific version
+      - run: flutter config --enable-web
+      - run: flutter build web --base-href /<リポジトリ名>/  # 重要: リポジトリ名に置き換える
+      - name: Create docs directory
+        run: mkdir -p docs
+      - name: Copy build files to docs
+        run: cp -r build/web/* docs/
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./docs
