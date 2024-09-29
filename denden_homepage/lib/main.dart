@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '部活名',
+      title: '電子電脳技術研究会',
       theme: ThemeData(
         useMaterial3: true, // Material Design 3 を有効にする
         colorSchemeSeed: Colors.blue, // カラーテーマを設定
@@ -51,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
       return Scaffold(
         appBar: AppBar(
-          title: const Text('部活名ホームページ'),
+          title: const Text('電子電脳技術研究会ホームページ'),
         ),
         body: isWideScreen
             ? Row(
