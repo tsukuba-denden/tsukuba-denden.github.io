@@ -37,7 +37,7 @@ jobs:
 
       # 👇 プロジェクトディレクトリに移動
       - name: Change working directory
-        run: cd ${{ github.workspace }}/tsukuba-denden.github.io # <your-flutter-project-directory> を実際のプロジェクト名に置き換える
+        run: cd ${{ github.workspace }}/denden_homepage # <your-flutter-project-directory> を実際のプロジェクト名に置き換える
 
       - run: flutter --version
       - run: flutter pub get
