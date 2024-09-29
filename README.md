@@ -14,3 +14,5 @@ rを押すと編集を反映、qで終了
 denden_homepage/lib/main.dartを編集する
 ##### ビルド
 ```flutter build web --base-href /tsukuba-denden.github.io/```
+
+https://zenn.dev/r0227n/articles/flutter_web_deploy_github_pages
