@@ -1,53 +1,38 @@
-name: Deploy static content to Pages
+name: github pages
 
 on:
   push:
-    branches: ["main"]
+    branches: [ main ]
+
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Repository
         id: version
         run: |
           REPOSITORY=$(echo ${{ github.repository }} | sed -e "s#.*/##")
-          echo "repository=$REPOSITORY" >> $GITHUB_OUTPUT
+          echo ::set-output name=repository::$REPOSITORY
       - name: Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.3' # 最新の安定版を使うことをお勧めします。例: 'stable'
+          flutter-version: '3.24.3'
           channel: 'stable'
           cache: true
-
-      # 👇 プロジェクトディレクトリに移動
-      - name: Change working directory
-        run: cd ${{ github.workspace }}/denden_homepage # <your-flutter-project-directory> を実際のプロジェクト名に置き換える
-
       - run: flutter --version
       - run: flutter pub get
       - run: flutter build web --web-renderer html --base-href /${{ steps.version.outputs.repository }}/
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          path: './build/web'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build/web
+          
