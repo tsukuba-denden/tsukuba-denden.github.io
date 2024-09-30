@@ -1,5 +1,5 @@
 # tsukuba-denden.github.io
-電子電脳技術研究会ホームページのリポジトリ
+[電子電脳技術研究会ホームページ](https://tsukuba-denden.github.io/)のリポジトリ
 
 ## ちょっとした使い方
 mainブランチになんかをPushすれば、数分後にgithub.ioに反映されます
