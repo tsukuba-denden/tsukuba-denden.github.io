@@ -101,12 +101,12 @@ class _MyHomePageState extends State<MyHomePage> {
                         NavigationRailDestination(
                           icon: Icon(Icons.sports_baseball),
                           selectedIcon: Icon(Icons.sports_baseball_outlined),
-                          label: Text('活動内容'),
+                          label: Text('電電とは？'),
                         ),
                         NavigationRailDestination(
                           icon: Icon(Icons.star),
                           selectedIcon: Icon(Icons.star_outline),
-                          label: Text('作品・功績紹介'),
+                          label: Text('作品・功績'),
                         ),
                         NavigationRailDestination(
                           icon: Icon(Icons.history),
