@@ -3,16 +3,18 @@
 
 ## ちょっとした使い方
 
+(DartSDKをインストールして下さい)
+
 ##### ディレクトリ移動
 ```cd denden_homepage```
 ##### プレビューを起動
 ```flutter run -d Edge```(```flutter run```だけだとChrome)
 rを押すと編集を反映、qで終了
 ##### 編集
-denden_homepage/lib/main.dartを編集する
+lib/main.dartを編集する
 ##### Push
 GitHub DesktopでPushする。たぶんCommit入力して押す→Pull押す→Push(同じ場所)押す
-(数分後にgithub.ioに自動的に反映されます)
+(自動的にビルド・デプロイされ、数分後にはgithub.ioに反映されます)
 
 https://zenn.dev/r0227n/articles/flutter_web_deploy_github_pages
 
