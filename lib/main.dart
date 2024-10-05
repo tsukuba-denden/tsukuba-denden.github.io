@@ -15,11 +15,19 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  ThemeMode _themeMode = ThemeMode.system; // デフォルトはシステム設定に従う
+  ThemeMode _themeMode = ThemeMode.system;
+  int _selectedIndex = 0; // _selectedIndex を MyApp に移動
 
   void changeTheme(ThemeMode themeMode) {
     setState(() {
       _themeMode = themeMode;
+    });
+  }
+
+  void changeIndex(int index) {
+    // _selectedIndex を変更するメソッド
+    setState(() {
+      _selectedIndex = index;
     });
   }
 
@@ -49,20 +57,14 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final themeMode = MyApp.of(context)?._themeMode ?? ThemeMode.system;
-    int _selectedIndex = 0; // MyHomePage内に移動
+    final selectedIndex = MyApp.of(context)?._selectedIndex ?? 0;
+    final state = MyApp.of(context);
 
-    // _widgetOptionsをMyHomePage内に移動。同時にconstを削除
-    final List<Widget> _widgetOptions = <Widget>[
+    final widgetOptions = <Widget>[
       const ActivitiesPage(),
       const AchievementsPage(),
       const HistoryPage(),
     ];
-
-    void _onItemTapped(int index) {
-      // _onItemTappedをMyHomePage内に移動
-      _selectedIndex = index; // 変更を適用するために再ビルドが必要
-      (context as Element).markNeedsBuild();
-    }
 
     return LayoutBuilder(
       builder: (BuildContext context, BoxConstraints constraints) {
@@ -123,7 +125,7 @@ class MyHomePage extends StatelessWidget {
                         title: const Text('活動内容'),
                         onTap: () {
                           Navigator.pop(context);
-                          _changeIndex(context, 0);
+                          state?.changeIndex(0); // MyAppのchangeIndexを呼び出す
                         },
                       ),
                       ListTile(
@@ -131,7 +133,7 @@ class MyHomePage extends StatelessWidget {
                         title: const Text('作品・功績紹介'),
                         onTap: () {
                           Navigator.pop(context);
-                          _changeIndex(context, 1);
+                          state?.changeIndex(1); // MyAppのchangeIndexを呼び出す
                         },
                       ),
                       ListTile(
@@ -139,23 +141,18 @@ class MyHomePage extends StatelessWidget {
                         title: const Text('歴史'),
                         onTap: () {
                           Navigator.pop(context);
-                          _changeIndex(context, 2);
+                          state?.changeIndex(2); // MyAppのchangeIndexを呼び出す
                         },
                       ),
                       ListTile(
-                        leading: Icon(themeMode == ThemeMode.dark
-                            ? Icons.light_mode
-                            : Icons.dark_mode),
+                        leading: Icon(_getThemeIcon(themeMode)), // themeModeを渡す
                         title: const Text('ダークモード切り替え'),
                         onTap: () {
-                          final state = MyApp.of(context);
-                          if (state != null) {
-                            state.changeTheme(
-                              state._themeMode == ThemeMode.light
-                                  ? ThemeMode.dark
-                                  : ThemeMode.light,
-                            );
-                          }
+                          state?.changeTheme(
+                            themeMode == ThemeMode.light
+                                ? ThemeMode.dark
+                                : ThemeMode.light,
+                          );
                           Navigator.pop(context);
                         },
                       ),
@@ -167,8 +164,9 @@ class MyHomePage extends StatelessWidget {
               ? Row(
                   children: <Widget>[
                     NavigationRail(
-                      selectedIndex: _selectedIndex,
-                      onDestinationSelected: _onItemTapped, // 修正
+                      selectedIndex: selectedIndex,
+                      onDestinationSelected: (index) =>
+                          state?.changeIndex(index),
                       labelType: NavigationRailLabelType.all,
                       destinations: const <NavigationRailDestination>[
                         NavigationRailDestination(
@@ -204,15 +202,26 @@ class MyHomePage extends StatelessWidget {
                       ),
                     ),
                     const VerticalDivider(thickness: 1, width: 1),
-                    Expanded(child: _widgetOptions[_selectedIndex]), // 修正
+                    Expanded(
+                      child: IndexedStack(
+                        // IndexedStackを使用
+                        index: selectedIndex,
+                        children: widgetOptions,
+                      ),
+                    ),
                   ],
                 )
-              : _widgetOptions[_selectedIndex], // 修正
+              : IndexedStack(
+                  // IndexedStackを使用
+                  index: selectedIndex,
+                  children: widgetOptions,
+                ),
           bottomNavigationBar: !isWideScreen
               ? NavigationBar(
-                  selectedIndex: _selectedIndex,
-                  onDestinationSelected: _onItemTapped, // 修正
+                  selectedIndex: selectedIndex,
+                  onDestinationSelected: (index) => state?.changeIndex(index),
                   destinations: const <NavigationDestination>[
+                    // constを追加
                     NavigationDestination(
                       icon: Icon(Icons.sports_baseball),
                       label: '活動内容',
@@ -233,19 +242,9 @@ class MyHomePage extends StatelessWidget {
     );
   }
 
-  void _changeIndex(BuildContext context, int index) {
-    // Scaffold.of(context) が動作するように、
-    // _onItemTapped を呼び出す前に状態を更新
-    setState(() {
-      _selectedIndex = index;
-    });
-  }
-
-  IconData _getThemeIcon() {
-    final state = MyApp.of(context);
-    return (state != null && state._themeMode == ThemeMode.dark)
-        ? Icons.light_mode
-        : Icons.dark_mode;
+  IconData _getThemeIcon(ThemeMode themeMode) {
+    // themeModeを受け取る
+    return themeMode == ThemeMode.dark ? Icons.light_mode : Icons.dark_mode;
   }
 }
 
