@@ -161,7 +161,31 @@ class ActivitiesPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text('活動内容ページ'));
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              '電子電脳技術研究会は、〇〇大学〇〇学部に所属する学生団体です。\n'
+              '私たちは、〇〇、〇〇、〇〇といった活動を通して、〇〇の知識・技術を習得し、〇〇を目標としています。',
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 18),
+            ),
+            SizedBox(height: 20),
+            Text(
+              '具体的な活動内容としては、以下のものがあります。\n'
+              '- 〇〇\n'
+              '- 〇〇\n'
+              '- 〇〇',
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 16),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
 
