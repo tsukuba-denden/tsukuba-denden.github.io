@@ -15,11 +15,19 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  ThemeMode _themeMode = ThemeMode.system; // デフォルトはシステム設定に従う
+  ThemeMode _themeMode = ThemeMode.system;
+  int _selectedIndex = 0; // _selectedIndex を MyApp に移動
 
   void changeTheme(ThemeMode themeMode) {
     setState(() {
       _themeMode = themeMode;
+    });
+  }
+
+  void changeIndex(int index) {
+    // _selectedIndex を変更するメソッド
+    setState(() {
+      _selectedIndex = index;
     });
   }
 
@@ -43,70 +51,133 @@ class _MyAppState extends State<MyApp> {
   }
 }
 
-class MyHomePage extends StatefulWidget {
+class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  int _selectedIndex = 0;
-
-  static const List<Widget> _widgetOptions = <Widget>[
-    ActivitiesPage(), // 活動内容ページ
-    AchievementsPage(), // 作品・功績紹介ページ
-    HistoryPage(), // 歴史ページ
-  ];
-
-  void _onItemTapped(int index) {
-    setState(() {
-      _selectedIndex = index;
-    });
-  }
-
-  @override
   Widget build(BuildContext context) {
+    final themeMode = MyApp.of(context)?._themeMode ?? ThemeMode.system;
+    final selectedIndex = MyApp.of(context)?._selectedIndex ?? 0;
+    final state = MyApp.of(context);
+
+    final widgetOptions = <Widget>[
+      const ActivitiesPage(),
+      const AchievementsPage(),
+      const HistoryPage(),
+    ];
+
     return LayoutBuilder(
       builder: (BuildContext context, BoxConstraints constraints) {
-        // 画面の幅に応じてレイアウトを切り替える
         bool isWideScreen = constraints.maxWidth >= 600;
 
         return Scaffold(
           appBar: AppBar(
             title: const Text('電子電脳技術研究会ホームページ'),
+            leading: !isWideScreen
+                ? Builder(
+                    builder: (BuildContext context) {
+                      return IconButton(
+                        icon: const Icon(Icons.menu),
+                        onPressed: () {
+                          Scaffold.of(context).openDrawer();
+                        },
+                      );
+                    },
+                  )
+                : null,
             actions: <Widget>[
               IconButton(
-                icon: Icon(_getThemeIcon()), // IconウィジェットでIconDataをラップ
+                icon: Icon(themeMode == ThemeMode.dark
+                    ? Icons.light_mode
+                    : Icons.dark_mode),
                 onPressed: () {
                   final state = MyApp.of(context);
                   if (state != null) {
-                    state.changeTheme(state._themeMode == ThemeMode.light
-                        ? ThemeMode.dark
-                        : ThemeMode.light);
+                    state.changeTheme(
+                      state._themeMode == ThemeMode.light
+                          ? ThemeMode.dark
+                          : ThemeMode.light,
+                    );
                   }
                 },
               ),
             ],
           ),
+          drawer: !isWideScreen
+              ? Drawer(
+                  child: ListView(
+                    padding: EdgeInsets.zero,
+                    children: <Widget>[
+                      const DrawerHeader(
+                        decoration: BoxDecoration(
+                          color: Colors.blue,
+                        ),
+                        child: Text(
+                          'メニュー',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 24,
+                          ),
+                        ),
+                      ),
+                      ListTile(
+                        leading: const Icon(Icons.sports_baseball),
+                        title: const Text('活動内容'),
+                        onTap: () {
+                          Navigator.pop(context);
+                          state?.changeIndex(0); // MyAppのchangeIndexを呼び出す
+                        },
+                      ),
+                      ListTile(
+                        leading: const Icon(Icons.star),
+                        title: const Text('作品・功績紹介'),
+                        onTap: () {
+                          Navigator.pop(context);
+                          state?.changeIndex(1); // MyAppのchangeIndexを呼び出す
+                        },
+                      ),
+                      ListTile(
+                        leading: const Icon(Icons.history),
+                        title: const Text('歴史'),
+                        onTap: () {
+                          Navigator.pop(context);
+                          state?.changeIndex(2); // MyAppのchangeIndexを呼び出す
+                        },
+                      ),
+                      ListTile(
+                        leading: Icon(_getThemeIcon(themeMode)), // themeModeを渡す
+                        title: const Text('ダークモード切り替え'),
+                        onTap: () {
+                          state?.changeTheme(
+                            themeMode == ThemeMode.light
+                                ? ThemeMode.dark
+                                : ThemeMode.light,
+                          );
+                          Navigator.pop(context);
+                        },
+                      ),
+                    ],
+                  ),
+                )
+              : null,
           body: isWideScreen
               ? Row(
-                  // ワイドスクリーンの場合: ナビゲーションを左に配置
                   children: <Widget>[
                     NavigationRail(
-                      selectedIndex: _selectedIndex,
-                      onDestinationSelected: _onItemTapped,
+                      selectedIndex: selectedIndex,
+                      onDestinationSelected: (index) =>
+                          state?.changeIndex(index),
                       labelType: NavigationRailLabelType.all,
                       destinations: const <NavigationRailDestination>[
                         NavigationRailDestination(
                           icon: Icon(Icons.sports_baseball),
                           selectedIcon: Icon(Icons.sports_baseball_outlined),
-                          label: Text('電電とは？'),
+                          label: Text('活動内容'),
                         ),
                         NavigationRailDestination(
                           icon: Icon(Icons.star),
-                          selectedIcon: Icon(Icons.star_outline),
-                          label: Text('作品・功績'),
+                          selectedIcon: Icon(Icons.star_outlined),
+                          label: Text('作品・功績紹介'),
                         ),
                         NavigationRailDestination(
                           icon: Icon(Icons.history),
@@ -114,18 +185,43 @@ class _MyHomePageState extends State<MyHomePage> {
                           label: Text('歴史'),
                         ),
                       ],
+                      trailing: IconButton(
+                        icon: Icon(themeMode == ThemeMode.dark
+                            ? Icons.light_mode
+                            : Icons.dark_mode),
+                        onPressed: () {
+                          final state = MyApp.of(context);
+                          if (state != null) {
+                            state.changeTheme(
+                              state._themeMode == ThemeMode.light
+                                  ? ThemeMode.dark
+                                  : ThemeMode.light,
+                            );
+                          }
+                        },
+                      ),
                     ),
                     const VerticalDivider(thickness: 1, width: 1),
-                    Expanded(child: _widgetOptions.elementAt(_selectedIndex)),
+                    Expanded(
+                      child: IndexedStack(
+                        // IndexedStackを使用
+                        index: selectedIndex,
+                        children: widgetOptions,
+                      ),
+                    ),
                   ],
                 )
-              : _widgetOptions
-                  .elementAt(_selectedIndex), // 狭い画面の場合: ナビゲーションを下に配置
-          bottomNavigationBar: !isWideScreen // ワイドスクリーンでない場合のみNavigationBarを表示
+              : IndexedStack(
+                  // IndexedStackを使用
+                  index: selectedIndex,
+                  children: widgetOptions,
+                ),
+          bottomNavigationBar: !isWideScreen
               ? NavigationBar(
-                  selectedIndex: _selectedIndex,
-                  onDestinationSelected: _onItemTapped,
+                  selectedIndex: selectedIndex,
+                  onDestinationSelected: (index) => state?.changeIndex(index),
                   destinations: const <NavigationDestination>[
+                    // constを追加
                     NavigationDestination(
                       icon: Icon(Icons.sports_baseball),
                       label: '活動内容',
@@ -146,12 +242,9 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  IconData _getThemeIcon() {
-    // IconDataを返すように変更
-    final state = MyApp.of(context);
-    return (state != null && state._themeMode == ThemeMode.dark)
-        ? Icons.light_mode
-        : Icons.dark_mode;
+  IconData _getThemeIcon(ThemeMode themeMode) {
+    // themeModeを受け取る
+    return themeMode == ThemeMode.dark ? Icons.light_mode : Icons.dark_mode;
   }
 }
 
