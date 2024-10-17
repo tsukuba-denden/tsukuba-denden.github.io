@@ -14,9 +14,9 @@ rを押すと編集を反映、qで終了
 lib/main.dartを編集する
 ##### Push
 
-### VSCode
+##### VSCode
 [拡張機能](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)入れる
-### GitHub Desktop
+##### GitHub Desktop
 たぶんCommit入力して押す→Pull押す→Push(同じ場所)押す
 
 *自動的にビルド・デプロイされ、数分後にはgithub.ioに反映されます*
