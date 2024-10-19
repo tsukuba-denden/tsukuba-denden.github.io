@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -39,11 +40,13 @@ class _MyAppState extends State<MyApp> {
         useMaterial3: true,
         colorSchemeSeed: Colors.blue,
         brightness: Brightness.light, // ライトモードのテーマ
+        textTheme: GoogleFonts.notoSansJpTextTheme(),
       ),
       darkTheme: ThemeData(
         useMaterial3: true,
         colorSchemeSeed: Colors.blue,
         brightness: Brightness.dark, // ダークモードのテーマ
+        textTheme: GoogleFonts.notoSansJpTextTheme(),
       ),
       themeMode: _themeMode, // 現在のテーマモードを設定
       home: const MyHomePage(),
@@ -261,7 +264,7 @@ class ActivitiesPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              '電子電脳技術研究会は、〇〇大学〇〇学部に所属する学生団体です。\n'
+              '電子電脳技術研究会は、。\n'
               '私たちは、〇〇、〇〇、〇〇といった活動を通して、〇〇の知識・技術を習得し、〇〇を目標としています。',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 18),
