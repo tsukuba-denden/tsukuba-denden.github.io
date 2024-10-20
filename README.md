@@ -3,10 +3,8 @@
 
 ## ちょっとした使い方
 
-(DartSDKをインストールして下さい)
+(Flutterをインストールして下さい)
 
-##### ディレクトリ移動
-```cd denden_homepage```
 ##### プレビューを起動
 ```flutter run -d Edge```(```flutter run```だけだとChrome)
 rを押すと編集を反映、qで終了
