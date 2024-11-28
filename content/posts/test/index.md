@@ -170,7 +170,7 @@ https://katex.org/docs/supported.html#style-color-size-and-font
 
 ## キーワード
 {{< keywordList >}}
-{{< keyword >}} *またしても* 何も知らない {{< /keyword >}}ゆうびんきょくさん
+{{< keyword >}} *またしても* 何も知らない {{< /keyword >}}電子電脳技術研究会
 {{< keyword icon="github" >}} I am post. {{< /keyword >}}
 {{< keyword icon="code" >}} 帝京平成大学の **ここがスゴイ** {{< /keyword >}}
 {{< /keywordList >}}
