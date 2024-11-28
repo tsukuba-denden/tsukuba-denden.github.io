@@ -29,19 +29,19 @@
 [[main]]
   identifier = "github"
   pre = "github"
-  url = "https://github.com/yuubinnkyoku"
+  url = "https://github.com/tsukuba_denden"
   weight = 40
 
 [[main]]
   identifier = "twitter"
   pre = "twitter"
-  url = "https://twitter.com/yuubinnkyoku_mk"
+  url = "https://twitter.com/Tsukuba_Denden"
   weight = 41
 
   [[main]]
   identifier = "youtube"
   pre = "youtube"
-  url = "https://youtube.com/@yuubinnkyoku"
+  url = "https://youtube.com/@Tsukuba_Denden"
   weight = 42
 
 # -- Footer Menu --
