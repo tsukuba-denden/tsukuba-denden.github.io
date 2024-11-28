@@ -17,7 +17,7 @@ title = "電子電脳技術研究会"
 [params.author]
    name = "電子電脳技術研究会"
 #   email = "youremail@example.com"
-   image = "img/でんでんむし_背景なし.png"
+   image = "img/icon_Nobackground.png"
    imageQuality = 96
    headline = "筑波大学附属中学校"
 #   bio = ""

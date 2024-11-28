@@ -13,14 +13,14 @@ tags: ["test"]
 ## アラート
 
 {{< alert icon="twitter" iconColor="#4a99e9" textColor="#b2b2b2" >}}
-Twitterで[フォロー](https://twitter.com/intent/follow?screen_name=yuubinnkyoku_mk)してね！
+Twitterで[フォロー](https://twitter.com/intent/follow?screen_name=Tsukuba_denden)してね！
 {{< /alert >}}
 
 <br>
 
 ## 記事へのリンク
 
-{{< article link="/posts/1731748107742-githubprofile/" >}}
+{{< article link="/posts/githubprofile/" >}}
 
 <br>
 
@@ -112,13 +112,12 @@ data: {
 {{< gallery >}}
   <img src="gallery/denden.png" class="grid-w33" />
   <img src="gallery/dendendirect.png" class="grid-w33" />
-  <img src="gallery/ライブ.png" class="grid-w33" />
 {{< /gallery >}}
 <br>
 
 ## GitHubカード
 
-{{< github repo="yuubinnkyoku/yuubinnkyoku" >}}
+{{< github repo="tsukuba-denden/tsukuba-denden.github.io" >}}
 <br>
 
 ## アイコン
