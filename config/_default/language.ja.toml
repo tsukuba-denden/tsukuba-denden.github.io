@@ -2,7 +2,7 @@ disabled = false
 languageCode = "ja"
 languageName = "日本語"
 weight = 1
-title = "〒«ゆうびんきょく»のホームページ"
+title = "電子電脳技術研究会"
 
 [params]
   displayName = "JA"
@@ -11,29 +11,21 @@ title = "〒«ゆうびんきょく»のホームページ"
   dateFormat = "2006年1月2日"
   logo = "img/icon.png"
   # secondaryLogo = "img/secondary-logo.png"
-  description = "〒«ゆうびんきょく»"
-  copyright = "©︎ 2024 〒«ゆうびんきょく»"
+  description = "筑波大学附属中学校電子電脳技術研究会 公式ホームページ"
+  copyright = "©︎ 2024 電子電脳技術研究会"
 
 [params.author]
    name = "〒«ゆうびんきょく»"
 #   email = "youremail@example.com"
    image = "img/icon.png"
    imageQuality = 96
-   headline = "ツイ廃マリカ勢ガジェオタプログラマー中学生"
+   headline = "筑波大学附属中学校"
 #   bio = "ツイ廃マリカ勢ガジェオタプログラマー中学生"
   links = [
 
-    { twitter = "https://twitter.com/yuubinnkyoku_mk" },
-#    { x-twitter = "https://twitter.com/yuubinnkyoku" },
-    { youtube = "https://youtube.com/@yuubinnkyoku" },
-    { discord = "https://discord.gg/Ptabd9wgYR" },
-    { github = "https://github.com/yuubinnkyoku" },
-    { bluesky = "https://bsky.app/profile/yuubinnkyoku.bsky.social" },
-    { instagram = "https://instagram.com/yuubinnkyoku_mk" },
-#    { mastodon = "https://mstdn.jp/@yuubinnkyoku" },
-    { reddit = "https://reddit.com/user/yuubinnkyoku" },
-    { threads = "https://www.threads.net/@yuubinnkyoku_mk" },
-    { tiktok = "https://tiktok.com/@yuubinnkyoku" },
-    { twitch = "https://twitch.tv/yuubinnkyoku" },
-    { link = "https://linktr.ee/yuubinnkyoku"},
+    { twitter = "https://twitter.com/Tsukuba_Denden" },
+#    { x-twitter = "https://twitter.com/Tsukuba_denden" },
+    { youtube = "https://youtube.com/@Tsukuba_Denden" },
+    { github = "https://github.com/tsukuba_denden" },
+#    { bluesky = "https://bsky.app/profile/??.bsky.social" },
   ]
