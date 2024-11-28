@@ -84,9 +84,6 @@ tags: ["Introduction", "History"]
 {{< timelineItem icon="star" header="「電子電脳技術研究会」に名称変更" badge="1998" >}}
 {{< /timelineItem >}}
 
-{{< timelineItem icon="star" header="" badge="1993" subheader="QuickBASICでのプログラム制作も行っていた" >}}
-{{< /timelineItem >}}
-
 {{< timelineItem icon="star" header="部員全員で協力し、1つのRPGを制作" badge="2000" >}}
 {{< /timelineItem >}}
 
