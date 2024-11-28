@@ -29,7 +29,7 @@
 [[main]]
   identifier = "github"
   pre = "github"
-  url = "https://github.com/tsukuba_denden"
+  url = "https://github.com/tsukuba-denden"
   weight = 40
 
 [[main]]
