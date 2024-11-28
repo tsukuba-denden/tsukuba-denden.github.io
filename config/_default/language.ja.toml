@@ -9,7 +9,7 @@ title = "電子電脳技術研究会"
   isoCode = "ja"
   rtl = false
   dateFormat = "2006年1月2日"
-  logo = "img/logo.png"
+  logo = "img/icon_Nobackground.png"
   # secondaryLogo = "img/secondary-logo.png"
   description = "筑波大学附属中学校電子電脳技術研究会 公式ホームページ"
   copyright = "©︎ 2024 電子電脳技術研究会"
@@ -17,7 +17,7 @@ title = "電子電脳技術研究会"
 [params.author]
    name = "電子電脳技術研究会"
 #   email = "youremail@example.com"
-   image = "img/icon_Nobackground.png"
+   image = "img/logo.png"
    imageQuality = 96
    headline = "筑波大学附属中学校"
 #   bio = ""
