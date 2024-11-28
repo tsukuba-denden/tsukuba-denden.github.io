@@ -10,7 +10,7 @@ description: "武勇伝武勇伝武勇電電で電電"
   breakLines=false
   loop=false
 >}}
-リニューアルされた電電公式ホームページにようこそ！
+リニューアルされた電電ホームページにようこそ！
 {{< /typeit >}}
 {{< /lead >}}
 
