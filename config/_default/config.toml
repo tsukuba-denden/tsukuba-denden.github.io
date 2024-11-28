@@ -1,5 +1,5 @@
 theme = "blowfish"
-baseURL = "https://tsukuba_denden.github.io"
+baseURL = "https://tsukuba-denden.github.io"
 languageCode = "ja"
 defaultContentLanguage = "ja"
 
