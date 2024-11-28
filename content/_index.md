@@ -1,6 +1,6 @@
 ---
 title: "電子電脳技術研究会"
-description: "電電"
+description: "武勇伝武勇伝武勇電電で電電"
 ---
 
 {{< lead >}}
