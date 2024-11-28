@@ -15,12 +15,12 @@ title = "電子電脳技術研究会"
   copyright = "©︎ 2024 電子電脳技術研究会"
 
 [params.author]
-   name = "〒«ゆうびんきょく»"
+   name = "電子電脳技術研究会"
 #   email = "youremail@example.com"
    image = "img/icon.png"
    imageQuality = 96
    headline = "筑波大学附属中学校"
-#   bio = "ツイ廃マリカ勢ガジェオタプログラマー中学生"
+#   bio = ""
   links = [
 
     { twitter = "https://twitter.com/Tsukuba_Denden" },
