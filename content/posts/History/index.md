@@ -12,6 +12,12 @@ tags: ["Introduction", "History"]
 
 {{< timeline >}}
 
+{{< timelineItem icon="star" header="高等師範学校尋常中等科設置" badge="1888" subheader="現在の筑附中高" >}}
+{{< /timelineItem >}}
+
+{{< timelineItem icon="star" header="現在の校舎に移転" badge="1940" >}}
+{{< /timelineItem >}}
+
 {{< timelineItem icon="star" header="「電波研究会」発足" badge="1947" subheader="当時はハムと呼ばれる無線の研究を行っていたらしい" >}}
 {{< /timelineItem >}}
 
