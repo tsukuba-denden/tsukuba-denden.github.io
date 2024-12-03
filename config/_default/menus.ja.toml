@@ -15,15 +15,9 @@
   weight = 30
 
 [[main]]
-  name = "link to tags"
+  name = "tentative site"
   parent = "Other"
-  pageRef = "tags"
-  weight = 30
-
-[[main]]
-  name = "link to posts"
-  parent = "Other"
-  pageRef = "posts"
+  url = "https://tsukuba-denden.github.io/tentative/"
   weight = 30
 
 [[main]]
