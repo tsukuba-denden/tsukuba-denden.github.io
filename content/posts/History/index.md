@@ -155,3 +155,6 @@ tags: ["Introduction", "History"]
 ちなみに多目的室にあった
 
 {{< /alert >}}
+
+## 学校ホームページ部活紹介内の電電
+https://web.archive.org/web/20041222184607/http://www.high-s.tsukuba.ac.jp/jhs/Bu_Kenkyukai/denden/index_denden.htm
