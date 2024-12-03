@@ -3,7 +3,7 @@ title: "弊校のホームページについて調査してみた"
 date: 2024-12-03
 draft: true
 description: "勝手に調べました　古に思いを馳せましょう"
-tags: ["Club","History"]
+tags: ["School","History"]
 ---
 うぇいばっくましーんで色々調べた
 
