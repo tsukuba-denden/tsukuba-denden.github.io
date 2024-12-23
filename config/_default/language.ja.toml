@@ -10,9 +10,9 @@ title = "電子電脳技術研究会"
   rtl = false
   dateFormat = "2006年1月2日"
   logo = "img/icon_Nobackground.png"
-  secondaryLogo = "img/logo.png"
+  # secondaryLogo = "img/logo.png"
   description = "筑波大学附属中学校電子電脳技術研究会 公式ホームページ"
-  copyright = "©︎ 2024 電子電脳技術研究会"
+  copyright = "©︎ { year } 電子電脳技術研究会"
 
 [params.author]
    name = "電子電脳技術研究会"
