@@ -7,7 +7,7 @@
 
 colorScheme = "Forest"
 defaultAppearance = "dark" # valid options: light or dark
-autoSwitchAppearance = true
+autoSwitchAppearance = false
 
 enableSearch = true
 enableCodeCopy = true
@@ -17,7 +17,7 @@ replyByEmail = false
 # mainSections = ["section1", "section2"]
 # robots = ""
 
-disableImageZoom = true
+disableImageZoom = false
 
 disableImageOptimization = true
 disableTextInHeader = false
@@ -40,7 +40,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   showMenu = true
   showCopyright = true
   showThemeAttribution = true
-  showAppearanceSwitcher = true
+  showAppearanceSwitcher = false
   showScrollToTop = true
 
 [homepage]
