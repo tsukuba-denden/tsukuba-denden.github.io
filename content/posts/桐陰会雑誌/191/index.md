@@ -1,6 +1,6 @@
 ---
 title: "191"
-date: 2024-12-03
+date: 2024-12-23
 description: "桐陰会雑誌 第191号"
 tags: ["Club","History"]
 ---
