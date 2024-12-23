@@ -6,8 +6,8 @@
   weight = 10
 
 [[main]]
-  name = "Tags"
-  pageRef = "tags"
+  name = "History"
+  pageRef = "posts/history"
   weight = 20
 
 [[main]]
