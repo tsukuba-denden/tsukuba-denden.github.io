@@ -1,7 +1,6 @@
 ---
 title: "190"
 date: 2024-12-03
-draft: true
 description: "桐陰会雑誌 第190号"
 tags: ["Club","History"]
 ---
