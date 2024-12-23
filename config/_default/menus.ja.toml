@@ -21,6 +21,12 @@
   weight = 30
 
 [[main]]
+  name = "桐陰会雑誌"
+  parent = "Other"
+  pageRef = "posts/桐陰会雑誌"
+  weight = 30
+
+[[main]]
   identifier = "github"
   pre = "github"
   url = "https://github.com/tsukuba-denden"
