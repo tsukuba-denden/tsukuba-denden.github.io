@@ -141,7 +141,7 @@ tags: ["Introduction", "History"]
 {{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="活動場所が技術科工作室に変更" badge="2024" subheader="多目的室が男子更衣室に">}}
-一番古い？電電ホームページ(https://denden2.lv9.org/index.php?i=1)が死亡
+電電ホームページ(https://denden2.lv9.org/index.php?i=1)が死亡
 {{< /timelineItem >}}
 
 {{< /timeline >}}
