@@ -1,6 +1,10 @@
 ---
 title: "桐陰会雑誌"
 draft: true
+groupByYear: false
+cardView: true
+showSummary: true
+orderByWeight: true
 ---
 
 過去の桐陰会雑誌における電子電脳技術研究会の項目を集めました。
@@ -17,3 +21,4 @@ draft: true
 {{< alert icon="fire">}}
 図書館の司書さんに言ったら過去の桐陰会雑誌を見せてもらえた。<br>1949年ぐらいのものから、(一部抜けているものもあったが)ほぼ全て見せてもらうことができ、感謝感謝。
 {{< /alert >}}
+<br><br>
