@@ -3,6 +3,8 @@ title: "120"
 date: 2024-12-24
 description: "桐陰会雑誌 第120号"
 tags: ["Club","History"]
+series: ["桐陰会雑誌"]
+series_order: 120
 ---
 
 ## 電波研究會

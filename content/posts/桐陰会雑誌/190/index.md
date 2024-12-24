@@ -1,8 +1,11 @@
 ---
 title: "190"
 date: 2024-12-03
+lastmod: 2024-12-24
 description: "桐陰会雑誌 第190号"
 tags: ["Club","History"]
+series: ["桐陰会雑誌"]
+series_order: 190
 ---
 
 ## 電子電脳技術研究会

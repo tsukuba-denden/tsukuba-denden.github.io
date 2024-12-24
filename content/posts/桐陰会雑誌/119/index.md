@@ -3,6 +3,8 @@ title: "119"
 date: 2024-12-24
 description: "桐陰会雑誌 第119号"
 tags: ["Club","History"]
+series: ["桐陰会雑誌"]
+series_order: 119
 ---
 
 ## 電波研究会
