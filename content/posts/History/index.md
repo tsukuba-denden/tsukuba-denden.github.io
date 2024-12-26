@@ -199,16 +199,14 @@ AtCoder Junior Leagueで中学部門10位を獲得
 
 ## 出典
 
-{{< alert icon="none" iconColor="#4a99e9" textColor="#b2b2b2" >}}
-
-- 2015年？に過去の桐陰会雑誌をもとに行われた調査
+> 2015年？に過去の桐陰会雑誌をもとに行われた調査
 {{< twitter user="Tsukuba_Denden" id="660319906894745600" >}}
 の画像内の紙 (ちなみに多目的室にあった)
-- 2024～2025年にかけて行った桐陰会雑誌の調査
-(全ての記述は[このページ]({{< ref "posts/桐陰会雑誌" >}})に)
-- [弊校のホームページ](https://www.high-s.tsukuba.ac.jp/jhs/introduction/education.html)
 
-{{< /alert >}}
+> 2024～2025年にかけて行った桐陰会雑誌の調査
+(全ての記述は[このページ]({{< ref "posts/桐陰会雑誌" >}})に)
+
+> [弊校のホームページ](https://www.high-s.tsukuba.ac.jp/jhs/introduction/education.html)
 
 ## 学校ホームページ部活紹介内の電電
 https://web.archive.org/web/20041222184607/http://www.high-s.tsukuba.ac.jp/jhs/Bu_Kenkyukai/denden/index_denden.htm
