@@ -6,8 +6,13 @@
   weight = 10
 
 [[main]]
-  name = "History"
+  name = "歴史"
   pageRef = "posts/history"
+  weight = 20
+
+[[main]]
+  name = "活動内容"
+  pageRef = "posts/活動内容"
   weight = 20
 
 [[main]]
