@@ -1,7 +1,7 @@
 ---
 title: "活動内容"
 date: 2024-12-24
-lastmod:
+lastmod: 2024-12-26
 description: "電電の活動内容"
 tags: ["Club"]
 ---
