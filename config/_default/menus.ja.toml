@@ -16,20 +16,20 @@
   weight = 20
 
 [[main]]
-  name = "Other"
+  name = "その他"
   weight = 30
 
 [[main]]
   name = "tentative site"
-  parent = "Other"
+  parent = "その他"
   url = "https://tsukuba-denden.github.io/tentative/"
   weight = 30
 
-[[main]]
-  name = "桐陰会雑誌"
-  parent = "Other"
-  pageRef = "posts/桐陰会雑誌"
-  weight = 30
+#[[main]]
+#  name = "桐陰会雑誌"
+#  parent = "その他"
+#  pageRef = "posts/桐陰会雑誌"
+#  weight = 30
 
 [[main]]
   identifier = "github"
