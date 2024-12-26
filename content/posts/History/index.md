@@ -110,22 +110,26 @@ tags: ["Introduction", "History"]
 {{< timelineItem icon="star" header="電研のメンバーがNTVを見学" badge="1955" >}}
 {{< /timelineItem >}}
 
-{{< timelineItem icon="star" header="グリッドディープメーターやトランシーバーの研究" badge="1962" subheader="確認される中で最も古い活動記録" >}}
+{{< timelineItem icon="star" header="グリッドディープメーターやトランシーバーの研究" badge="1962" >}}
+確認される中で最も古い活動記録
 {{< /timelineItem >}}
 
-{{< timelineItem icon="star" header="アマチュア無線の研究" badge="1969" subheader="この年からアマチュア無線が主な活動となっていく" >}}
+{{< timelineItem icon="star" header="アマチュア無線の研究" badge="1969" >}}
+この年からアマチュア無線が主な活動となっていく
 {{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="アマチュア無線局JAI-ZXSを開局" badge="1970" >}}
 {{< /timelineItem >}}
 
-{{< timelineItem icon="star" header="電子工作などの活動を行う" badge="1978" subheader="「電子工学の基礎を学び、自分の一作品を作る」がモットー" >}}
+{{< timelineItem icon="star" header="電子工作などの活動を行う" badge="1978"  >}}
+「電子工学の基礎を学び、自分の一作品を作る」がモットー
 {{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="シンセサイザーの修理、ラジカセの制作、アマチュア無線の研究" badge="1980" >}}
 {{< /timelineItem >}}
 
-{{< timelineItem icon="star" header="ポケコンの研究" badge="1982" subheader="この年からコンピューターが活動内容に入ってくるように" >}}
+{{< timelineItem icon="star" header="ポケコンの研究" badge="1982" >}}
+この年からコンピューターが活動内容に入ってくる
 {{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="マイコン、アマチュア無線の研究" badge="1983" >}}
@@ -137,13 +141,15 @@ tags: ["Introduction", "History"]
 {{< timelineItem icon="star" header="パソコンでの活動、アマチュア無線の研究" badge="1987" >}}
 {{< /timelineItem >}}
 
-{{< timelineItem icon="star" header="PC 室を利用して、本格的なプログラミング" badge="1989" subheader="この年からはパソコンが中心となる" >}}
+{{< timelineItem icon="star" header="PC 室を利用して、本格的なプログラミング" badge="1989" >}}
+この年からはパソコンが中心となる
 {{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="PC-9800シリーズを使用、Basicによるプログラミング" badge="1990" >}}
 {{< /timelineItem >}}
 
-{{< timelineItem icon="star" header="DOS及びDISK-BASICでのプログラミング" badge="1994" subheader="QuickBASICでのプログラム制作も行っていた" >}}
+{{< timelineItem icon="star" header="DOS及びDISK-BASICでのプログラミング" badge="1994" >}}
+QuickBASICでのプログラム制作も行っていた
 {{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="RPGツクールを使用したゲーム制作" badge="1998" >}}
@@ -167,19 +173,22 @@ tags: ["Introduction", "History"]
 {{< timelineItem icon="star" header="パソコンでの活動ができず、ロボットの制作を行う" badge="2007" >}}
 {{< /timelineItem >}}
 
-{{< timelineItem icon="star" header="Visual Basic,Python,C#でのプログラミング。" badge="2012" subheader="学発では動画でのプレゼンテーションを行った" >}}
+{{< timelineItem icon="star" header="Visual Basic,Python,C#でのプログラミング。" badge="2012" >}}
+学発では動画でのプレゼンテーションを行った
 {{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="EV3のロボットを導入" badge="2018" >}}
 {{< /timelineItem >}}
 
-{{< timelineItem icon="star" header="3Dプリンターを導入" badge="2019" subheader="(顧問によると)その後何台か購入するも、全て1年以内に壊れてしまう">}}
+{{< timelineItem icon="star" header="3Dプリンターを導入" badge="2019" >}}
+(顧問の先生によると)その後何台か購入するも、全て1年以内に壊れてしまう
 {{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="Unityでの3Dゲーム開発、電電の公式ホームページを開設" badge="2014" >}}
 {{< /timelineItem >}}
 
-{{< timelineItem icon="star" header="競技プログラミングが流行" badge="2023" subheader="AtCoderJuniorLeagueで中学部門10位を獲得">}}
+{{< timelineItem icon="star" header="競技プログラミングが流行" badge="2023" >}}
+AtCoder Junior Leagueで中学部門10位を獲得
 {{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="ホームページを新設" badge="2024">}}
