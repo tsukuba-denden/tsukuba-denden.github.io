@@ -94,7 +94,7 @@ tags: ["Introduction", "History"]
 
 {{< timelineItem icon="location-dot" header="活動場所が技術科工作室に変更" badge="2024">}}
 
-多目的室の一部が男子更衣室に改装されたことに伴い、活動場所が技術化工作室に
+多目的室の一部が男子更衣室に改装されたことに伴い、活動場所が技術科工作室に
 
 {{< /timelineItem >}}
 
