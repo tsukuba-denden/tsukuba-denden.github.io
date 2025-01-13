@@ -65,14 +65,6 @@
     ]
   },
   {
-    "title": "albertolvera.com",
-    "url": "https://albertolvera.com",
-    "source": "n/a",
-    "tags": [
-      "Personal site"
-    ]
-  },
-  {
     "title": "fahru.my.id",
     "url": "https://www.fahru.my.id",
     "source": "n/a",
@@ -83,14 +75,6 @@
   {
     "title": "loisvelasco.is-a.dev",
     "url": "https://loisvelasco.is-a.dev",
-    "source": "n/a",
-    "tags": [
-      "Personal site"
-    ]
-  },
-  {
-    "title": "omarohn.de",
-    "url": "https://omarohn.de",
     "source": "n/a",
     "tags": [
       "Personal site"
@@ -289,14 +273,6 @@
     ]
   },
   {
-    "title": "blog.enmanuelmoreira.com",
-    "url": "https://blog.enmanuelmoreira.com",
-    "source": "n/a",
-    "tags": [
-      "Personal site"
-    ]
-  },
-  {
     "title": "halcyonstraits.com",
     "url": "https://www.halcyonstraits.com/",
     "source": "n/a",
@@ -425,14 +401,6 @@
     ]
   },
   {
-    "title": "kylemalloy.com",
-    "url": "https://kylemalloy.com",
-    "source": "n/a",
-    "tags": [
-      "Personal site"
-    ]
-  },
-  {
     "title": "joush007.github.io",
     "url": "https://joush007.github.io",
     "source": "n/a",
@@ -443,14 +411,6 @@
   {
     "title": "rejowski.xyz",
     "url": "https://rejowski.xyz/",
-    "source": "n/a",
-    "tags": [
-      "Personal Site"
-    ]
-  },
-  {
-    "title": "v-y-s.com",
-    "url": "https://v-y-s.com/",
     "source": "n/a",
     "tags": [
       "Personal Site"
@@ -805,6 +765,52 @@
       "Blog",
       "Documentation",
       "CV"
+    ]
+  },
+  {
+    "title": "Academy Customize",
+    "url": "https://acamize.com/",
+    "source": "n/a",
+    "tags": [
+      "Business site"
+    ]
+  },
+  {
+    "title": "さばっこ",
+    "url": "https://sabac.co",
+    "source": "n/a",
+    "tags": [
+      "Personal site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "mrtruongvu.com",
+    "url": "https://mrtruongvu.com",
+    "source": "n/a",
+    "tags": [
+      "Personal site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "StepaniaH",
+    "url": "https://stepaniah.me",
+    "source": "n/a",
+    "tags": [
+      "Personal site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "Laterre Dev",
+    "url": "https://laterre.dev/",
+    "source": "https://github.com/laterre39/laterre-dev-blog",
+    "tags": [
+      "Personal site",
+      "Technology Blog",
+      "Software Developer",
+      "Portfolio Site"
     ]
   }
 ]
