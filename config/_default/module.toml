@@ -1,3 +1,7 @@
 [hugoVersion]
   extended = true
   min = "0.87.0"
+
+[[imports]]
+disable = false
+path = "github.com/nunocoracao/blowfish/v2"
