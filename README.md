@@ -11,3 +11,9 @@ https://blowfish.page/ja/
 https://zenn.dev/tamanegi/articles/5a44fbcda0f7c5
 ### 自分の記事
 https://qiita.com/yuubinnkyoku_mk/items/60fb608bc006a1c19f81
+
+BlowfishはGit Submoduleでインストールされています
+```
+git submodule update --remote --merge
+```
+だけでアップデートできますやったね
