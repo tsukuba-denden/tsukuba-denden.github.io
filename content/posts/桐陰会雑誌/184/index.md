@@ -6,6 +6,7 @@ description: "桐陰会雑誌 第184号"
 tags: ["Club","History"]
 series: ["桐陰会雑誌"]
 series_order: 184
+draft: true
 ---
 
 ## 電子電脳技術研究会

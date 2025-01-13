@@ -5,6 +5,7 @@ description: "桐陰会雑誌 第123号"
 tags: ["Club","History"]
 series: ["桐陰会雑誌"]
 series_order: 123
+draft: true
 ---
 
 ## 電波研究会

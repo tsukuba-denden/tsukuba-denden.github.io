@@ -5,6 +5,7 @@ description: "桐陰会雑誌 第119号"
 tags: ["Club","History"]
 series: ["桐陰会雑誌"]
 series_order: 119
+draft: true
 ---
 
 ## 電波研究会

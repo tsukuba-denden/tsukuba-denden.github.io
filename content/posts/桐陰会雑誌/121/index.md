@@ -5,6 +5,7 @@ description: "桐陰会雑誌 第121号"
 tags: ["Club","History"]
 series: ["桐陰会雑誌"]
 series_order: 121
+draft: true
 ---
 
 {{< alert icon="" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}

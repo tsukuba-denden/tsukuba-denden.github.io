@@ -6,6 +6,7 @@ description: "桐陰会雑誌 第185号"
 tags: ["Club","History"]
 series: ["桐陰会雑誌"]
 series_order: 185
+draft: true
 ---
 
 ## 電子頭脳技術研究会
