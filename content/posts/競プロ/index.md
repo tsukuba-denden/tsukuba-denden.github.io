@@ -10,16 +10,16 @@ tags: ["競プロ"]
 コンテストへの参加には準備が必要。
 
 ### AtCoderアカウントをつくる
-https://atcoder.jp/register?continue=https%3A%2F%2Fatcoder.jp%2F
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://atcoder.jp/register?continue=https%3A%2F%2Fatcoder.jp%2F" data-iframely-url="//iframely.net/r4Px8rt"></a></div></div><script async src="//iframely.net/embed.js"></script>
 プロフィールの所属は`電子電脳技術研究会`を含めておくと便利
 
 ### AJLに参加登録する
-https://atcoder.jp/contests/ajl2024winter
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://atcoder.jp/contests/ajl2024winter" data-iframely-url="//iframely.net/lgiLWyK"></a></div></div><script async src="//iframely.net/embed.js"></script>
 学校コードは`C113110000041`←コピペ用
 
 ### 拡張機能をいれる
-https://scrapbox.io/magurofly/AtCoder%E3%82%92%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%80%81%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%8A%E3%81%8F%E3%81%A8%E3%81%84%E3%81%84%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD%E3%81%AA%E3%81%A9
-をもとに好きなの入れると良い
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://scrapbox.io/magurofly/AtCoder%E3%82%92%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%80%81%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%8A%E3%81%8F%E3%81%A8%E3%81%84%E3%81%84%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD%E3%81%AA%E3%81%A9" data-iframely-url="//iframely.net/bXIS21Y?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>
+を見て好きなの入れると良い
 
 ### 環境構築する
 https://youtube.com/watch?v=uhnASau7fB4
@@ -29,7 +29,7 @@ https://youtube.com/watch?v=uhnASau7fB4
 ## AtCoderについて
 AtCoderは競技プログラミングのコンテストを主催する会社。
 ABC、ARC、AGC、AHCの4種類のコンテストが存在するが、我々が参加するのはABCとAHC
-https://info.atcoder.jp/overview/contest/intro?utm_source=atcoder&utm_medium=button&utm_id=atcoder-top
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://info.atcoder.jp/overview/contest/intro" data-iframely-url="//iframely.net/JOM6FWS?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
 ### レートと色
 AtCoderにはレートが存在する。そのレートに応じてランク分けされていて、「◯色」と表現する。
@@ -78,11 +78,11 @@ AtCoderにはレートが存在する。そのレートに応じてランク分�
 [Blueberry式初心者向けフローチャート](https://scrapbox.io/Atcoder-myReflection/%E5%88%9D%E5%BF%83%E8%80%85%E5%90%91%E3%81%91%E3%83%95%E3%83%AD%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC%E3%83%88%EF%BC%88%E6%9A%AB%E5%AE%9A%EF%BC%89)に目を通しておくと良い
 
 ### AtCoder Problems
-https://kenkoooo.com/atcoder/#/table/
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://kenkoooo.com/atcoder/#/table/" data-iframely-url="//iframely.net/g8B9Svf"></a></div></div><script async src="//iframely.net/embed.js"></script>
 このサイトでは、自分が解いた問題を可視化したり、ライバルと比較したり、バーチャルコンテストを立てたりすることができる。
 まず、自分の名前をUserIDに入力してみよう。すると、解いた問題に色がつくのが分かる。
 問題の左の円の部分にカーソルを合わせるとDifficultyが表示される。これは例えばDifficultyが500の場合、レート500の人の半分ぐらいがとけるあ、ということを意味する。レート500は茶色なので、この問題は「茶Diff」である。
 
 ### AtCoder Novisteps
-https://atcoder-novisteps.vercel.app/problems
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://atcoder-novisteps.vercel.app/problems" data-iframely-url="//iframely.net/V9Y1BP1"></a></div></div><script async src="//iframely.net/embed.js"></script>
 「問題一覧」から難易度別の問題に挑める
