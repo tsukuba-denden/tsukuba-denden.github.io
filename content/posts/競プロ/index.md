@@ -28,7 +28,7 @@ https://youtube.com/watch?v=uhnASau7fB4
 
 ## AtCoderについて
 AtCoderは競技プログラミングのコンテストを主催する会社。
-ABC、ARC、AGC、AHCの4種類のコンテストが存在するが、我々が参加するのはABCとAHC。
+ABC、ARC、AGC、AHCの4種類のコンテストが存在するが、我々が参加するのはABCとAHC
 https://info.atcoder.jp/overview/contest/intro?utm_source=atcoder&utm_medium=button&utm_id=atcoder-top
 
 ### レートと色
@@ -57,6 +57,7 @@ AtCoderにはレートが存在する。そのレートに応じてランク分�
 一風変わった形式で、1つの問題の答えをより正確に求めればパフォーマンスが上がる。AJL(ヒューリスティック部門)のスコアにも反映される
 それなりにヒューステリック用の勉強をしてこないと大幅な点数改善は見込めない。ので、テストコードがある場合はそれをコピペ、ない場合は空白出力を必ず試す。(←ここ重要)
 最後に提出したコードのみで判定される場合もあるので注意
+
 ### AJL
 学校対抗リーグ
 学校ランキング/学年内の個人ランキングが表示される
@@ -81,6 +82,7 @@ https://kenkoooo.com/atcoder/#/table/
 このサイトでは、自分が解いた問題を可視化したり、ライバルと比較したり、バーチャルコンテストを立てたりすることができる。
 まず、自分の名前をUserIDに入力してみよう。すると、解いた問題に色がつくのが分かる。
 問題の左の円の部分にカーソルを合わせるとDifficultyが表示される。これは例えばDifficultyが500の場合、レート500の人の半分ぐらいがとけるあ、ということを意味する。レート500は茶色なので、この問題は「茶Diff」である。
+
 ### AtCoder Novisteps
 https://atcoder-novisteps.vercel.app/problems
 「問題一覧」から難易度別の問題に挑める
