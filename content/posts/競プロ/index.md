@@ -72,9 +72,14 @@ AtCoderにはレートが存在する。そのレートに応じてランク分�
 1.雑念を去り一心に仏道修行すること。
 2.身をきよめ行いを慎むこと
 3.競技プログラミングにおいて、問題演習などを通じて実力を向上させること
+
+[Blueberry式初心者向けフローチャート](https://scrapbox.io/Atcoder-myReflection/%E5%88%9D%E5%BF%83%E8%80%85%E5%90%91%E3%81%91%E3%83%95%E3%83%AD%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC%E3%83%88%EF%BC%88%E6%9A%AB%E5%AE%9A%EF%BC%89)に目を通しておくと良い
+
 ### AtCoder Problems
 https://kenkoooo.com/atcoder/#/table/
 このサイトでは、自分が解いた問題を可視化したり、ライバルと比較したり、バーチャルコンテストを立てたりすることができる。
 まず、自分の名前をUserIDに入力してみよう。すると、解いた問題に色がつくのが分かる。
 問題の左の円の部分にカーソルを合わせるとDifficultyが表示される。これは例えばDifficultyが500の場合、レート500の人の半分ぐらいがとけるあ、ということを意味する。レート500は茶色なので、この問題は「茶Diff」である。
-### 
+### AtCoder Novisteps
+https://atcoder-novisteps.vercel.app/problems
+「問題一覧」から難易度別の問題に挑める
