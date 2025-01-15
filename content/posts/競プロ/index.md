@@ -8,17 +8,23 @@ tags: ["競プロ"]
 
 ## 準備
 コンテストへの参加には準備が必要。
+
 ### AtCoderアカウントをつくる
 https://atcoder.jp/register?continue=https%3A%2F%2Fatcoder.jp%2F
+プロフィールの所属は`電子電脳技術研究会`を含めておくと便利
+
 ### AJLに参加登録する
 https://atcoder.jp/contests/ajl2024winter
 学校コードは`C113110000041`←コピペ用
+
 ### 拡張機能をいれる
 https://scrapbox.io/magurofly/AtCoder%E3%82%92%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%80%81%E5%85%A5%E3%82%8C%E3%81%A6%E3%81%8A%E3%81%8F%E3%81%A8%E3%81%84%E3%81%84%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD%E3%81%AA%E3%81%A9
 をもとに好きなの入れると良い
+
 ### 環境構築する
 https://youtube.com/watch?v=uhnASau7fB4
 環境構築すればローカルでコードテストができるようになります
+やらなくてもまぁ良いがやるに越したことはない
 
 ## AtCoderについて
 AtCoderは競技プログラミングのコンテストを主催する会社。
