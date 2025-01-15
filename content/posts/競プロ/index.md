@@ -29,10 +29,9 @@ AtCoderにはレートが存在する。そのレートに応じてランク分�
 |800〜|<font color="#008000">緑色</font>|上位16%|
 |1200〜|<font color="#00C0C0">水色</font>|上位8%|
 |1600〜|<font color="#0000FF">青色</font>|上位3.609%|
-ここからカラーコード変えてない
-|2000〜|<font color="#800080">黄色</font>|上位1.513%|
-|2400〜|<font color="#800080">橙色</font>|上位0.396%|
-|2800〜|<font color="#800080">赤色</font>|上位0.161%|
+|2000〜|<font color="#C0C000">黄色</font>|上位1.513%|
+|2400〜|<font color="#FF8000">橙色</font>|上位0.396%|
+|2800〜|<font color="#FF0000">赤色</font>|上位0.161%|
 
 [AtCoder Info](https://info.atcoder.jp/utilize/jobs/rating-business-impact)より
 
