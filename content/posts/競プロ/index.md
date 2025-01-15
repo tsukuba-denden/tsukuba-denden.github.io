@@ -29,6 +29,7 @@ https://youtube.com/watch?v=uhnASau7fB4
 ## AtCoderについて
 AtCoderは競技プログラミングのコンテストを主催する会社。
 ABC、ARC、AGC、AHCの4種類のコンテストが存在するが、我々が参加するのはABCとAHC。
+https://info.atcoder.jp/overview/contest/intro?utm_source=atcoder&utm_medium=button&utm_id=atcoder-top
 
 ### レートと色
 AtCoderにはレートが存在する。そのレートに応じてランク分けされていて、「◯色」と表現する。
