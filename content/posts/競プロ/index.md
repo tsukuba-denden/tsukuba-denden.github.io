@@ -22,7 +22,7 @@ tags: ["競プロ"]
 を見て好きなの入れると良い
 
 ### 環境構築する
-https://youtube.com/watch?v=uhnASau7fB4
+{{< youtubeLite id="uhnASau7fB4" label="" >}}
 環境構築すればローカルでコードテストができるようになります
 やらなくてもまぁ良いがやるに越したことはない
 
