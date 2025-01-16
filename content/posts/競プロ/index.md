@@ -87,9 +87,13 @@ AからGまで7問あり、基本的にはABCをある程度高速に解けれ�
 {{< /alert >}}
 
 ### AJL
-学校対抗リーグ
-学校ランキング/学年内の個人ランキングが表示される
-表彰+キューブ(かっこいい)もらえるのでやった方が良い
+学校対抗リーグ<br>
+学校ランキング/学年内の個人ランキングが存在<br>
+表彰+キューブ(かっこいい)もらえるのでやった方が良い<br>
+||アルゴリズム部門|ヒューリスティック部門|
+|---|---|---|
+|上位n個人のスコアで争う|||
+|表彰圏内。|||
 詳しく言うと、学校ランキングも個人ランキングも、
 アルゴ部門は20位、ヒューリス部門は10位までが表彰圏内
 アルゴ部門は上位6個のスコアで、ヒューリスは上位3個のスコアで競う
@@ -133,11 +137,16 @@ Pythonを使っている暖色コーダーもいるにはいる
 - 最初はPythonを学び、時間制限に困るようになったらC++
 バイリンガルになれば簡単な問題はPython/難しい問題はC++と使い分けられる(早解きに有利)
 - 難しいが1度習得すればずっと使えるC++を最初から
-A,B問題の早解きが少し不利にはなる
+A,B問題の早解きが少し不利にはなる。
 
 おすすめは一番下
 
 ### Pythonを学ぶ
+
+### APG4bPython
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://atcoder.jp/contests/APG4bPython" data-iframely-url="//iframely.net/r227he5"></a></div></div><script async src="//iframely.net/embed.js"></script>
+
+AtCoder公式の教材。
 
 #### AtCoderで始めるPython入門
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://qiita.com/KoyanagiHitoshi/items/3286fbc65d56dd67737c" data-iframely-url="//iframely.net/weVzQRg?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>
