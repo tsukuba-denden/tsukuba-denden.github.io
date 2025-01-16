@@ -130,18 +130,18 @@ AからGまで7問あり、基本的にはABCをある程度高速に解けれ�
 こんな感じで、基本的にはC++の方が競プロ向けではあるが、Pythonには簡単に学べる/書けるというメリットもある。
 ということは下のどれかを選ぶことになる
 
-- 簡単に習得できるPythonを時間制限に悩まされながらずっと使う
+- 簡単に習得できるPythonを時間制限に悩まされながらずっと使う<br>
 Pythonを使っている暖色コーダーもいるにはいる
-- 最初はPythonを学び、時間制限に困るようになったらC++
+- 最初はPythonを学び、時間制限に困るようになったらC++<br>
 バイリンガルになれば簡単な問題はPython/難しい問題はC++と使い分けられる(早解きに有利)
-- 難しいが1度習得すればずっと使えるC++を最初から
+- 難しいが1度習得すればずっと使えるC++を最初から<br>
 A,B問題の早解きが少し不利にはなる。
 
 おすすめは一番下
 
 ### Pythonを学ぶ
 
-### APG4bPython
+#### APG4bPython
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://atcoder.jp/contests/APG4bPython" data-iframely-url="//iframely.net/r227he5"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
 AtCoder公式の教材。
@@ -152,3 +152,5 @@ AtCoder公式の教材。
 Pythonの基本的な構文などを学べる。これさえあればA問題は大体解ける。
 
 ### C++を学ぶ
+
+#### APG4b
