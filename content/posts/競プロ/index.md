@@ -88,3 +88,21 @@ AtCoderにはレートが存在する。そのレートに応じてランク分�
 ### AtCoder Novisteps
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://atcoder-novisteps.vercel.app/problems" data-iframely-url="//iframely.net/V9Y1BP1"></a></div></div><script async src="//iframely.net/embed.js"></script>
 「問題一覧」から難易度別の問題に挑める
+
+## プログラミング言語について
+アルゴリズムの勉強を始める前に、まずはどれか1つの言語で基本的な文法が使えるようになっている必要がある。それに役立つサイトなどをここでは紹介する
+
+### どの言語を選ぶべき？
+競プロでは、主にPythonとC++の2つの言語が用いられることが多い。
+||Python|C++|
+|---|---|---|
+|速度|くっそ遅い|めっちゃ速い|
+|学習コスト|低い|高い|
+|コード長|短い|長い|
+こんな感じで、基本的にはC++の方が競プロ向けではあるが、
+- 簡単に学べるPythonをずっと使う
+- 最初はPythonを使い、時間制限に困るようになったらC++を使う
+- 
+
+#### AtCoderで始めるPython入門
+Pythonの基本的な
