@@ -37,16 +37,18 @@ C113110000041
 
 ### 環境構築する
 {{< youtubeLite id="uhnASau7fB4" label="" >}}
-環境構築すればローカルでコードテストができるようになります
+環境構築すればローカルでコードテストができるようになります。
 やらなくても良いがやるに越したことはない
 
 ## AtCoderについて
 AtCoderは競技プログラミングのコンテストを主催する会社。
-ABC、ARC、AGC、AHCの4種類のコンテストが存在するが、我々が参加するのはABCとAHC
+ABC、ARC、AGC、AHCの4種類のコンテストが存在するが、我々が参加するのはABCとAHC。
+
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://info.atcoder.jp/overview/contest/intro" data-iframely-url="//iframely.net/JOM6FWS?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
 ### レートと色
 AtCoderにはレートが存在する。そのレートに応じてランク分けされていて、「◯色」と表現する。
+
 |レート|色|分布|
 |---|---|---|
 |0〜|<font color="#808080">灰色</font>|上位100.000%|
@@ -72,7 +74,7 @@ https://atcoder.jp/homeの「予定されたコンテスト」から参加した
 レート2000までの人のレートが変動するコンテスト<br>
 毎週土曜21時〜22時40分<br>
 より多くの問題をより早く解けばパフォーマンスが上がる。AJL(アルゴリズム部門)のスコアにも反映される<br>
-AからGまで7問あり、基本的にはABCをある程度高速に解ければ茶パフォが出る。問題がムズければABだけで茶パフォ出ることも。
+AからGまで7問あり、基本的にはA〜Cをある程度高速に解ければ茶パフォが出る。問題がムズければABだけで茶パフォ出ることも。
 
 
 ### AHC
@@ -105,6 +107,8 @@ AからGまで7問あり、基本的にはABCをある程度高速に解けれ�
 3.競技プログラミングにおいて、問題演習などを通じて実力を向上させること。
 
 [Blueberry式初心者向けフローチャート](https://scrapbox.io/Atcoder-myReflection/%E5%88%9D%E5%BF%83%E8%80%85%E5%90%91%E3%81%91%E3%83%95%E3%83%AD%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC%E3%83%88%EF%BC%88%E6%9A%AB%E5%AE%9A%EF%BC%89)に目を通しておくと良い
+
+ちなみにBlueberry氏は電電での競プロの流行のきっかけとなった元部員。
 
 ### AtCoder Problems
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://kenkoooo.com/atcoder/#/table/" data-iframely-url="//iframely.net/g8B9Svf"></a></div></div><script async src="//iframely.net/embed.js"></script>
