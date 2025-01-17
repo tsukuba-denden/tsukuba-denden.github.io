@@ -25,6 +25,12 @@
   url = "https://tsukuba-denden.github.io/tentative/"
   weight = 30
 
+[[main]]
+  name = "競プロのはじめかた"
+  parent = "その他"
+  pageRef = "posts/競プロ"
+  weight = 30
+
 #[[main]]
 #  name = "桐陰会雑誌"
 #  parent = "その他"
