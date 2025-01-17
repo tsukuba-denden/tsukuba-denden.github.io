@@ -37,16 +37,18 @@ C113110000041
 
 ### 環境構築する
 {{< youtubeLite id="uhnASau7fB4" label="" >}}
-環境構築すればローカルでコードテストができるようになります
+環境構築すればローカルでコードテストができるようになります。
 やらなくても良いがやるに越したことはない
 
 ## AtCoderについて
 AtCoderは競技プログラミングのコンテストを主催する会社。
-ABC、ARC、AGC、AHCの4種類のコンテストが存在するが、我々が参加するのはABCとAHC
+ABC、ARC、AGC、AHCの4種類のコンテストが存在するが、我々が参加するのはABCとAHC。
+
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://info.atcoder.jp/overview/contest/intro" data-iframely-url="//iframely.net/JOM6FWS?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
 ### レートと色
 AtCoderにはレートが存在する。そのレートに応じてランク分けされていて、「◯色」と表現する。
+
 |レート|色|分布|
 |---|---|---|
 |0〜|<font color="#808080">灰色</font>|上位100.000%|
@@ -68,14 +70,14 @@ https://atcoder.jp/homeの「予定されたコンテスト」から参加した
 その後、「Reted参加登録」「Unrated参加登録」の２つのボタンが表示される。<br>
 前者はレート変動あり、後者はなし。具体的には疲れてる時とかはアンレを選択する。開始５分を過ぎても選択していない場合、強制的にアンレになる。
 
-### ABC
+### ABC(AtCoder Beginner Contest)
 レート2000までの人のレートが変動するコンテスト<br>
 毎週土曜21時〜22時40分<br>
 より多くの問題をより早く解けばパフォーマンスが上がる。AJL(アルゴリズム部門)のスコアにも反映される<br>
-AからGまで7問あり、基本的にはABCをある程度高速に解ければ茶パフォが出る。問題がムズければABだけで茶パフォ出ることも。
+AからGまで7問あり、基本的にはA〜Cをある程度高速に解ければ茶パフォが出る。問題がムズければABだけで茶パフォ出ることも。
 
 
-### AHC
+### AHC(AtCoder Heuristic Contest)
 一風変わった形式で、1つの問題の答えをより正確に求めればパフォーマンスが上がる。AJL(ヒューリスティック部門)のスコアにも反映される
 それなりにヒューステリック用の勉強をしてこないと大幅な点数改善は見込めない。ので、
 - テストコードがある場合はそれをコピペ
@@ -86,13 +88,15 @@ AからGまで7問あり、基本的にはABCをある程度高速に解けれ�
 最後に提出したコードのみで判定される場合もあるので注意！
 {{< /alert >}}
 
-### AJL
-学校対抗リーグ
-学校ランキング/学年内の個人ランキングが表示される
-表彰+キューブ(かっこいい)もらえるのでやった方が良い
-詳しく言うと、学校ランキングも個人ランキングも、
-アルゴ部門は20位、ヒューリス部門は10位までが表彰圏内
-アルゴ部門は上位6個のスコアで、ヒューリスは上位3個のスコアで競う
+### AJL(AtCoder Junior League)
+学校対抗リーグ<br>
+学校ランキング/学年内の個人ランキングが存在<br>
+表彰+キューブ(かっこいい)もらえるのでやった方が良い<br>
+||アルゴリズム部門|ヒューリスティック部門|
+|---|---|---|
+|合計スコアにカウントされる数|上位6個|上位3個|
+|表彰圏内|20位まで|10位まで|
+
 ![ajlのキューブ](https://img.atcoder.jp/ajl2024/6a807d0bfdcfc0e7bd5b914ac64859ff.png)
 
 ## 精進
@@ -103,6 +107,8 @@ AからGまで7問あり、基本的にはABCをある程度高速に解けれ�
 3.競技プログラミングにおいて、問題演習などを通じて実力を向上させること。
 
 [Blueberry式初心者向けフローチャート](https://scrapbox.io/Atcoder-myReflection/%E5%88%9D%E5%BF%83%E8%80%85%E5%90%91%E3%81%91%E3%83%95%E3%83%AD%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC%E3%83%88%EF%BC%88%E6%9A%AB%E5%AE%9A%EF%BC%89)に目を通しておくと良い
+
+ちなみにBlueberry氏は電電での競プロの流行のきっかけとなった元部員。
 
 ### AtCoder Problems
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://kenkoooo.com/atcoder/#/table/" data-iframely-url="//iframely.net/g8B9Svf"></a></div></div><script async src="//iframely.net/embed.js"></script>
@@ -128,16 +134,21 @@ AからGまで7問あり、基本的にはABCをある程度高速に解けれ�
 こんな感じで、基本的にはC++の方が競プロ向けではあるが、Pythonには簡単に学べる/書けるというメリットもある。
 ということは下のどれかを選ぶことになる
 
-- 簡単に習得できるPythonを時間制限に悩まされながらずっと使う
+- 簡単に習得できるPythonを時間制限に悩まされながらずっと使う<br>
 Pythonを使っている暖色コーダーもいるにはいる
-- 最初はPythonを学び、時間制限に困るようになったらC++
+- 最初はPythonを学び、時間制限に困るようになったらC++<br>
 バイリンガルになれば簡単な問題はPython/難しい問題はC++と使い分けられる(早解きに有利)
-- 難しいが1度習得すればずっと使えるC++を最初から
-A,B問題の早解きが少し不利にはなる
+- 難しいが1度習得すればずっと使えるC++を最初から<br>
+A,B問題の早解きが少し不利にはなる。
 
 おすすめは一番下
 
 ### Pythonを学ぶ
+
+#### APG4bPython
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://atcoder.jp/contests/APG4bPython" data-iframely-url="//iframely.net/r227he5"></a></div></div><script async src="//iframely.net/embed.js"></script>
+
+AtCoder公式の教材。
 
 #### AtCoderで始めるPython入門
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://qiita.com/KoyanagiHitoshi/items/3286fbc65d56dd67737c" data-iframely-url="//iframely.net/weVzQRg?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>
@@ -145,3 +156,25 @@ A,B問題の早解きが少し不利にはなる
 Pythonの基本的な構文などを学べる。これさえあればA問題は大体解ける。
 
 ### C++を学ぶ
+
+#### APG4b
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://atcoder.jp/contests/APG4b" data-iframely-url="//iframely.net/g3jLqsR"></a></div></div><script async src="//iframely.net/embed.js"></script>
+
+AtCoder公式の教材。
+
+### その他の学習教材
+
+#### [AtCoder Beginners Selection](https://atcoder.jp/contests/abs)
+ガチ初心者向けの問題が集められている。
+
+#### [競プロ典型90問](https://atcoder.jp/contests/typical90)
+ABC300〜600点程度の問題が集められている。E869120さん企画。
+
+#### [AtCoder Library Practice Contest](https://atcoder.jp/contests/practice2)
+C++でUnionfindなどを提供するAtCoderLibraryの練習コン。
+
+
+
+## 便利なサイト
+
+### 
