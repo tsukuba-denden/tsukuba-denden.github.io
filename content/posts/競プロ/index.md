@@ -70,14 +70,14 @@ https://atcoder.jp/homeの「予定されたコンテスト」から参加した
 その後、「Reted参加登録」「Unrated参加登録」の２つのボタンが表示される。<br>
 前者はレート変動あり、後者はなし。具体的には疲れてる時とかはアンレを選択する。開始５分を過ぎても選択していない場合、強制的にアンレになる。
 
-### ABC
+### ABC(AtCoder Beginner Contest)
 レート2000までの人のレートが変動するコンテスト<br>
 毎週土曜21時〜22時40分<br>
 より多くの問題をより早く解けばパフォーマンスが上がる。AJL(アルゴリズム部門)のスコアにも反映される<br>
 AからGまで7問あり、基本的にはA〜Cをある程度高速に解ければ茶パフォが出る。問題がムズければABだけで茶パフォ出ることも。
 
 
-### AHC
+### AHC(AtCoder Heuristic Contest)
 一風変わった形式で、1つの問題の答えをより正確に求めればパフォーマンスが上がる。AJL(ヒューリスティック部門)のスコアにも反映される
 それなりにヒューステリック用の勉強をしてこないと大幅な点数改善は見込めない。ので、
 - テストコードがある場合はそれをコピペ
@@ -88,7 +88,7 @@ AからGまで7問あり、基本的にはA〜Cをある程度高速に解けれ
 最後に提出したコードのみで判定される場合もあるので注意！
 {{< /alert >}}
 
-### AJL
+### AJL(AtCoder Junior League)
 学校対抗リーグ<br>
 学校ランキング/学年内の個人ランキングが存在<br>
 表彰+キューブ(かっこいい)もらえるのでやった方が良い<br>
@@ -161,3 +161,20 @@ Pythonの基本的な構文などを学べる。これさえあればA問題は�
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://atcoder.jp/contests/APG4b" data-iframely-url="//iframely.net/g3jLqsR"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
 AtCoder公式の教材。
+
+### その他の学習教材
+
+#### [AtCoder Beginners Selection](https://atcoder.jp/contests/abs)
+ガチ初心者向けの問題が集められている。
+
+#### [競プロ典型90問](https://atcoder.jp/contests/typical90)
+ABC300〜600点程度の問題が集められている。E869120さん企画。
+
+#### [AtCoder Library Practice Contest](https://atcoder.jp/contests/practice2)
+C++でUnionfindなどを提供するAtCoderLibraryの練習コン。
+
+
+
+## 便利なサイト
+
+### 
