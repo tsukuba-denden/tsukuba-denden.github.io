@@ -158,3 +158,6 @@ Pythonの基本的な構文などを学べる。これさえあればA問題は�
 ### C++を学ぶ
 
 #### APG4b
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://atcoder.jp/contests/APG4b" data-iframely-url="//iframely.net/g3jLqsR"></a></div></div><script async src="//iframely.net/embed.js"></script>
+
+AtCoder公式の教材。
