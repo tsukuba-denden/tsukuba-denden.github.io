@@ -185,4 +185,7 @@ C++でUnionfindなどを提供するAtCoderLibraryの練習コン。
 
 C++で知っておくべき関数などがまとめられている。
 
-### (https://andoryoto.github.io/WebApplication/searchapp/)
+### [AtCoder Phrase Search](https://andoryoto.github.io/WebApplication/searchapp/)
+過去問の解説を語句で検索できる。
+
+### 
