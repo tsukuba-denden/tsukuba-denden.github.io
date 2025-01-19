@@ -177,4 +177,12 @@ C++でUnionfindなどを提供するAtCoderLibraryの練習コン。
 
 ## 便利なサイト
 
-### 
+### [AtCoder Replay](https://atcoder-replay.kakira.dev/#)
+![]()
+こういう画像を作れる。
+
+###　[C++メモ 関数/モジュール](https://mica-rate-b7c.notion.site/C-045096737a3441f39ded62fcdcf71f4a)
+
+C++で知っておくべき関数などがまとめられている。
+
+### (https://andoryoto.github.io/WebApplication/searchapp/)
