@@ -116,9 +116,12 @@ AからGまで7問あり、基本的にはA〜Cをある程度高速に解けれ
 まず、自分の名前をUserIDに入力してみよう。すると、解いた問題に色がつくのが分かる。<br>
 問題の左の円の部分にカーソルを合わせるとDifficultyが表示される。これは例えばDifficultyが500の場合、レート500の人の半分ぐらいがとけるあ、ということを意味する。レート500は茶色なので、この問題は「茶Diff」である。
 
-### AtCoder Novisteps
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://atcoder-novisteps.vercel.app/problems" data-iframely-url="//iframely.net/V9Y1BP1"></a></div></div><script async src="//iframely.net/embed.js"></script><br>
-「問題一覧」から難易度別の問題に挑める
+### [AtCoder Novisteps](https://atcoder-novisteps.vercel.app/problems)
+「問題一覧」から難易度別の問題に挑める。最近できたサイトで、解法別の問題もある。
+
+### [AOJ/AtCoder-JOI](https://joi.goodbaton.com/)
+情報オリンピックの過去問を検索したり自分が解いていない問題を確認したりできる。
+![例(blueberry1001氏の統計)](image/AOJ.png)
 
 ## プログラミング言語について
 アルゴリズムの勉強を始める前に、まずはどれか1つの言語で基本的な文法が使えるようになっている必要がある。それに役立つサイトなどをここでは紹介する
@@ -177,8 +180,8 @@ C++でUnionfindなどを提供するAtCoderLibraryの練習コン。
 
 ## 便利なサイト
 
-### [AtCoder Replay](https://atcoder-replay.kakira.dev/#)
-![]()
+### [AtCoder Replay (β)](https://atcoder-replay.kakira.dev/#)
+![例](img/replay.png)
 こういう画像を作れる。
 
 ### [C++メモ 関数/モジュール](https://mica-rate-b7c.notion.site/C-045096737a3441f39ded62fcdcf71f4a)
@@ -190,3 +193,6 @@ C++で知っておくべき関数などがまとめられている。
 
 ### [AtCoder Companions](https://atcoder-companions.kakira.dev/)
 自分の不正解コードと近いコードを検索し、正解コードとの差分を表示できる。
+「何が違うのか分からん」みたいな時に便利。
+
+### 
