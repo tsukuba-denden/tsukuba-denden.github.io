@@ -121,7 +121,7 @@ AからGまで7問あり、基本的にはA〜Cをある程度高速に解けれ
 
 ### [AOJ/AtCoder-JOI](https://joi.goodbaton.com/)
 情報オリンピックの過去問を検索したり自分が解いていない問題を確認したりできる。
-![例(blueberry1001氏の統計)](image/AOJ.png)
+![例：blueberry1001氏の統計](img/AOJ.png "例：blueberry1001氏の統計")
 
 ## プログラミング言語について
 アルゴリズムの勉強を始める前に、まずはどれか1つの言語で基本的な文法が使えるようになっている必要がある。それに役立つサイトなどをここでは紹介する
@@ -165,34 +165,47 @@ Pythonの基本的な構文などを学べる。これさえあればA問題は�
 
 AtCoder公式の教材。
 
-### その他の学習教材
+## その他の学習教材
 
-#### [AtCoder Beginners Selection](https://atcoder.jp/contests/abs)
+### [AtCoder Beginners Selection](https://atcoder.jp/contests/abs)
 ガチ初心者向けの問題が集められている。
 
-#### [競プロ典型90問](https://atcoder.jp/contests/typical90)
+### [競プロ典型90問](https://atcoder.jp/contests/typical90)
 ABC300〜600点程度の問題が集められている。E869120さん企画。
 
-#### [AtCoder Library Practice Contest](https://atcoder.jp/contests/practice2)
+### [AtCoder Library Practice Contest](https://atcoder.jp/contests/practice2)
 C++でUnionfindなどを提供するAtCoderLibraryの練習コン。
 
+### [EDPC / DP まとめコンテスト](https://atcoder.jp/contests/dp)
+DP(動的計画法)を学びたい人におすすめ。Cまでは解けるようにしておきたい。
 
 
 ## 便利なサイト
 
+### [AtCoder Clans]](https://kato-hiro.github.io/AtCoderClans/)
+AtCoder関連サービスを纏めたリンク集。正直ここより網羅されている。
+
 ### [AtCoder Replay (β)](https://atcoder-replay.kakira.dev/#)
 ![例](img/replay.png)
-こういう画像を作れる。
+こういう画像を作れる。最大瞬間風速もわかる。
+
+### [AJL Predicter](https://kfrom40.github.io/)
+AJLの成績を、コンテスト中/コンテスト直後でも確認することができる。未参加のユーザをランキング表に追加できる機能も。
 
 ### [C++メモ 関数/モジュール](https://mica-rate-b7c.notion.site/C-045096737a3441f39ded62fcdcf71f4a)
-
 C++で知っておくべき関数などがまとめられている。
 
 ### [AtCoder Phrase Search](https://andoryoto.github.io/WebApplication/searchapp/)
-過去問の解説を語句で検索できる。
+過去問の解説に出てくる語句を検索できる。
 
 ### [AtCoder Companions](https://atcoder-companions.kakira.dev/)
 自分の不正解コードと近いコードを検索し、正解コードとの差分を表示できる。
 「何が違うのか分からん」みたいな時に便利。
 
-### 
+### [AtCoder Type Checker](https://atcoder-type-checker.herokuapp.com/)
+「多く解くタイプ」or「早く解くタイプ」を判定してくれる。
+![yuubinnkyoku氏の例](img/Type.png)
+
+### [AtCoder Graphs β](https://atcoder-graphs.vercel.app/#contributorGraph)
+各コンテストの現在のレートに対する寄与率などを表示できる。
+![img](img/Graph.png)
