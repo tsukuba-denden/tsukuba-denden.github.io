@@ -182,7 +182,7 @@ DP(動的計画法)を学びたい人におすすめ。Cまでは解けるよう
 
 ## 便利なサイト
 
-### [AtCoder Clans]](https://kato-hiro.github.io/AtCoderClans/)
+### [AtCoder Clans](https://kato-hiro.github.io/AtCoderClans/)
 AtCoder関連サービスを纏めたリンク集。正直ここより網羅されている。
 
 ### [AtCoder Replay (β)](https://atcoder-replay.kakira.dev/#)
