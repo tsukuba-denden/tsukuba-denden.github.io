@@ -249,7 +249,7 @@ With other shortcodes
 {{< /timeline >}}
 
 ## タイピング
-{{< typeit 
+{{< typeit
   tag=h6
   speed=50
   breakLines=false
