@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>競プロ on 電子電脳技術研究会</title><link>https://tsukuba-denden.github.io/tags/%E7%AB%B6%E3%83%97%E3%83%AD/</link><description>Recent content in 競プロ on 電子電脳技術研究会</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>©︎ 2025 電子電脳技術研究会</copyright><lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tsukuba-denden.github.io/tags/%E7%AB%B6%E3%83%97%E3%83%AD/index.xml" rel="self" type="application/rss+xml"/><item><title>JOIの表彰がありました！</title><link>https://tsukuba-denden.github.io/posts/joi2024%E8%A1%A8%E5%BD%B0/</link><pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate><guid>https://tsukuba-denden.github.io/posts/joi2024%E8%A1%A8%E5%BD%B0/</guid><description/></item><item><title>競プロのはじめかた</title><link>https://tsukuba-denden.github.io/posts/%E7%AB%B6%E3%83%97%E3%83%AD/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://tsukuba-denden.github.io/posts/%E7%AB%B6%E3%83%97%E3%83%AD/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>競プロ on 電子電脳技術研究会</title>
+    <link>https://tsukuba-denden.github.io/tags/%E7%AB%B6%E3%83%97%E3%83%AD/</link>
+    <description>Recent content in 競プロ on 電子電脳技術研究会</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>©︎ 2025 電子電脳技術研究会</copyright>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tsukuba-denden.github.io/tags/%E7%AB%B6%E3%83%97%E3%83%AD/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>JOIの表彰がありました！</title>
+      <link>https://tsukuba-denden.github.io/posts/joi2024%E8%A1%A8%E5%BD%B0/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://tsukuba-denden.github.io/posts/joi2024%E8%A1%A8%E5%BD%B0/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>競プロのはじめかた</title>
+      <link>https://tsukuba-denden.github.io/posts/%E7%AB%B6%E3%83%97%E3%83%AD/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://tsukuba-denden.github.io/posts/%E7%AB%B6%E3%83%97%E3%83%AD/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
