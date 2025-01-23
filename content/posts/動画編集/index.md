@@ -8,7 +8,7 @@ tags: ["動画編集"]
 ## アプリ
 電電で主に使用しているアプリ↓
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://manjubox.net/ymm4/" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Fmanjubox.net%2Fymm4%2F&key=b9b9b5c9e15cf48ae344d4a4438ad2f5"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
-[AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/)
+![AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/)
 
 ゆっくりムービーメーカー4(YMM4)とAviUtlがあるが、最近主流なのはYMM4。まあ好きなほうを使えばいいと思う。<br>
 どっちも入れる手もある。<br>
@@ -55,7 +55,7 @@ tags: ["動画編集"]
 
 ### AviUtl
 1.サイトにアクセスする
-[AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/)
+![AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/)
 
 2.ファイルをダウンロードする<br>
   ↓の〇がついているのを入れる
