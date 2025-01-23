@@ -7,8 +7,8 @@ tags: ["動画編集"]
 
 ## アプリ
 電電で主に使用しているアプリ↓
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://manjubox.net/ymm4/" data-iframely-url="//iframely.net/r4Px8rt"></a></div></div><script async src="//iframely.net/embed.js"></script>
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://spring-fragrance.mints.ne.jp/aviutl/" data-iframely-url="//iframely.net/r4Px8rt"></a></div></div><script async src="//iframely.net/embed.js"></script>
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://manjubox.net/ymm4/" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Fmanjubox.net%2Fymm4%2F&key=b9b9b5c9e15cf48ae344d4a4438ad2f5"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+[AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/)
 
 ゆっくりムービーメーカー4(YMM4)とAviUtlがあるが、最近主流なのはYMM4。まあ好きなほうを使えばいいと思う。<br>
 どっちも入れる手もある。<br>
@@ -40,7 +40,7 @@ tags: ["動画編集"]
 
 ### YMM4
 1.サイトにアクセスする
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://manjubox.net/ymm4/" data-iframely-url="//iframely.net/r4Px8rt"></a></div></div><script async src="//iframely.net/embed.js"></script>
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://manjubox.net/ymm4/" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Fmanjubox.net%2Fymm4%2F&key=b9b9b5c9e15cf48ae344d4a4438ad2f5"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 
 2.「ゆっくりMovieMaker4をダウンロード」をクリック<br>
    *ゆっくり解説を作らないなら「ゆっくりMovieMaker4 Liteをダウンロード」でもいい
@@ -51,11 +51,11 @@ tags: ["動画編集"]
 4.フォルダの中の「YukkuriMovieMaker.exe」を開く（タスクバーとかにピン止めしておくとよい）<br>
 
 公式の記事あったので載せておきます↓
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://manjubox.net/ymm4/faq/startup_trouble/install/" data-iframely-url="//iframely.net/r4Px8rt"></a></div></div><script async src="//iframely.net/embed.js"></script>
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://manjubox.net/ymm4/faq/startup_trouble/install/" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Fmanjubox.net%2Fymm4%2Ffaq%2Fstartup_trouble%2Finstall%2F&key=b9b9b5c9e15cf48ae344d4a4438ad2f5"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 
 ### AviUtl
 1.サイトにアクセスする
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://spring-fragrance.mints.ne.jp/aviutl/" data-iframely-url="//iframely.net/r4Px8rt"></a></div></div><script async src="//iframely.net/embed.js"></script>
+[AviUtl](https://spring-fragrance.mints.ne.jp/aviutl/)
 
 2.ファイルをダウンロードする<br>
   ↓の〇がついているのを入れる
@@ -66,11 +66,11 @@ tags: ["動画編集"]
 4.フォルダの「AviUtl.exe」を開く（タスクバーとかにピン止めしておくとよい）<br>
 
 下の記事を参照するとよいと思われる↓
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://aviutl.info/dl-innsuto-ru/" data-iframely-url="//iframely.net/r4Px8rt"></a></div></div><script async src="//iframely.net/embed.js"></script>
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://aviutl.info/dl-innsuto-ru/" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Faviutl.info%2Fdl-innsuto-ru%2F&key=b9b9b5c9e15cf48ae344d4a4438ad2f5"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 
 ### 使い方
 下の動画とか良さそう
 {{< youtubeLite id="bTrtmg2MQS4" label="" >}}
 
 AviUtlはこのページかな
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://aviutl.info/" data-iframely-url="//iframely.net/r4Px8rt"></a></div></div><script async src="//iframely.net/embed.js"></script>
+<div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 72.1893%; padding-top: 120px;"><a href="https://aviutl.info/" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Faviutl.info%2F&key=b9b9b5c9e15cf48ae344d4a4438ad2f5"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
