@@ -1,7 +1,7 @@
 ---
 title: "生成AIについて"
 date: 2025-01-24
-lastmod: 2025-01-24
+lastmod: 2025-01-25
 description: "生成AIを使ってみたい"
 tags: ["AI","LLM","生成AI"]
 ---
@@ -13,7 +13,6 @@ tags: ["AI","LLM","生成AI"]
 AIを使ってみたい人向けに、2025年1月現在最新のAIを紹介します。
 
 ## 文章生成AI
-
 ### Gemini(aistudio.google.com)
 https://aistudio.google.com
 無料で使える中ではDeepSeekと並んで最高。Googleアカウントにログインすれば使える。
@@ -45,9 +44,8 @@ Anthropic社が開発した。くろーどと読む。Claude 3.5 Haikuなどが�
 中身はGPT-4oと同じ。一応独自の機能も追加されていたりする。
 
 ## 画像生成AI
-
 ### ImageFX
-https://labs.google/fx
+https://labs.google/fx/ja/tools/image-fx
 で試せる。Google製。Imagen3というモデルが使える。最高性能。
 
 ### Microsoft Copilot
@@ -59,7 +57,7 @@ Grokも頼めば画像を作ってくれる。「今までの投稿から私の�
 
 ## 音楽生成AI
 ### Suno
-
+https://suno.com/
 
 ### MusicFX
 https://labs.google/fx/ja/tools/music-fx
