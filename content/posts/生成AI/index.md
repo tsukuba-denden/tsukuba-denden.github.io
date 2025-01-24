@@ -32,7 +32,7 @@ https://chat.deepseek.com/
 
 ### Claude
 https://claude.ai/
-Anthropic社が開発した。くろーどと読む。無料で使えるのはClaude 3.5 Sonnet。
+Anthropic社が開発した。くろーどと読む。Claude 3.5 Haikuなどが使える。
 
 ### Gemini(gemini.google.com)
 下のaistudio.google.comの下位互換。使えるモデルが限られている。
