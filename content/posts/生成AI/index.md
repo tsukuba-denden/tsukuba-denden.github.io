@@ -45,7 +45,18 @@ Anthropic社が開発した。くろーどと読む。Claude 3.5 Haikuなどが�
 中身はGPT-4oと同じ。一応独自の機能も追加されていたりする。
 
 ## 画像生成AI
-## Imageさ
-## 動画生成AI
+
+### ImageFX
+https://labs.google/fx
+で試せる。Imagen3というモデルが使える。
+
+### Microsoft Copilot
+Copilotに「画像を描いて」などと頼むと、画像生成できる。
+中身はDALL-E3というオープンソースのモデル。
+
+### Grok
+Grokも頼めば画像を作ってくれる。「過去のポストを参考にして」などのプロンプトが一時期流行った。
+
 ## 音楽生成AI
+### Suno
 
