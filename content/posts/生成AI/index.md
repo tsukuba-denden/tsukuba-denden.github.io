@@ -14,7 +14,6 @@ AIを使ってみたい人向けに、2025年1月現在最新のAIを紹介し�
 
 ## 文章生成AI
 
-
 ### Gemini(aistudio.google.com)
 https://aistudio.google.com
 無料で使える中ではDeepSeekと並んで最高。Googleアカウントにログインすれば使える。
@@ -29,7 +28,7 @@ https://chat.deepseek.com/
 ### ChatGPT
 
 言わずとしれた有名企業、OpenAIが運営する。
-最新のOpenAI-o1モデルは話題となった。
+最新のOpenAI-o1モデルは話題となったが無料で使えるのはGPT-4o
 
 ### Claude
 https://claude.ai/
@@ -43,5 +42,10 @@ Anthropic社が開発した。くろーどと読む。Claude 3.5 Haikuなどが�
 下のaistudio.google.comの下位互換。使えるモデルが限られている。
 
 ### Microsoft Copilot
-中身はOpenAIのGPT-4o。一応独自の機能も追加されていたりするが性能が低い。
+中身はGPT-4oと同じ。一応独自の機能も追加されていたりする。
+
+## 画像生成AI
+## Imageさ
+## 動画生成AI
+## 音楽生成AI
 
