@@ -77,23 +77,27 @@ tags: ["動画編集"]
 4. フォルダの「AviUtl.exe」を開く（タスクバーとかにピン止めしておくとよい）<br>
 
 下の記事を参照するとよいと思われる↓
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://aviutl.info/dl-innsuto-ru/" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Faviutl.info%2Fdl-innsuto-ru%2F&key=b9b9b5c9e15cf48ae344d4a4438ad2f5"></a></div></div><script>
 
-### 使い方
+https://aviutl.info/dl-innsuto-ru/
 
+## 使い方
+
+### YMM4
 下の動画とか良さそう
+
 {{< youtubeLite id="bTrtmg2MQS4" label="" >}}
 
-AviUtlはこのページかな
-<div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 72.1893%; padding-top: 120px;"><a href="https://aviutl.info/" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Faviutl.info%2F&key=b9b9b5c9e15cf48ae344d4a4438ad2f5"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+### Aviutl
 
-### プラグイン
+https://aviutl.info/
 
-#### YMM4
+## プラグイン
+
+### YMM4
 
 [公式サイトのプラグイン一覧](https://manjubox.net/ymm4/faq/plugin/list/)
 
-#### Aviutl
+### Aviutl
 
 - [AviUtl Package Manager](https://team-apm.github.io/apm/)
 AviUtl本体やプラグイン・スクリプトの導入を補助するソフトウェア。
