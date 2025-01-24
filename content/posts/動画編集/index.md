@@ -70,6 +70,7 @@ tags: ["動画編集"]
 2. ファイルをダウンロードする<br>
 ↓の〇がついているのを入れる
 ![実際の画面](img/img2.png)
+0.93rc1は絶対に入れてはいけない
 
 3. フォルダを展開し、拡張機能のフォルダの中にあるファイルをAviUtlのフォルダの中に入れる<br>
 
@@ -86,7 +87,18 @@ tags: ["動画編集"]
 AviUtlはこのページかな
 <div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 72.1893%; padding-top: 120px;"><a href="https://aviutl.info/" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Faviutl.info%2F&key=b9b9b5c9e15cf48ae344d4a4438ad2f5"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 
-### 拡張機能
+### プラグイン
 
 #### YMM4
-[公式サイト]()
+
+[公式サイトのプラグイン一覧](https://manjubox.net/ymm4/faq/plugin/list/)
+
+#### Aviutl
+
+- [AviUtl Package Manager](https://team-apm.github.io/apm/)
+AviUtl本体やプラグイン・スクリプトの導入を補助するソフトウェア。
+基本的なプラグインを1クリックで入れられる。
+
+あとは
+https://note.com/takusiiman/n/nb02d82c5df61
+に色々書いてある。
