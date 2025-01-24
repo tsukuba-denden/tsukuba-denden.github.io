@@ -16,20 +16,22 @@ AIを使ってみたい人向けに、2025年1月現在最新のAIを紹介し�
 
 
 ### Gemini(aistudio.google.com)
+https://aistudio.google.com
 無料で使える中ではDeepSeekと並んで最高。Googleアカウントにログインすれば使える。
-入力内容は全て
+入力内容は全て学習されるので注意。
 
 ### deepseek
 https://chat.deepseek.com/
 
 最近出てきた、中国企業が運営するAI。OpenAI-o1と同等なのに完全無料の「DeepSeek-R1」が使える。ログインすれば使える。
-
+中華製なのでプーさんの話とかはできない。
 
 ### ChatGPT
 言わずとしれた有名企業、OpenAIが運営する。
 最新のOpenAI-o1モデルは話題となった。
 
 ### Claude
+https://claude.ai/
 Anthropic社が開発した。くろーどと読む。無料で使えるのはClaude 3.5 Sonnet。
 
 ### Gemini(gemini.google.com)
