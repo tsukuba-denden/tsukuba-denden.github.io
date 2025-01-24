@@ -19,7 +19,7 @@ https://aistudio.google.com
 無料で使える中ではDeepSeekと並んで最高。Googleアカウントにログインすれば使える。
 入力内容は全て学習されるので注意。
 
-### deepseek
+### DeepSeek
 https://chat.deepseek.com/
 
 最近出てきた、中国企業が運営するAI。OpenAI-o1と同等なのに完全無料の「DeepSeek-R1」が使える。ログインすれば使える。
@@ -28,7 +28,7 @@ https://chat.deepseek.com/
 ### ChatGPT
 
 言わずとしれた有名企業、OpenAIが運営する。
-最新のOpenAI-o1モデルは話題となったが無料で使えるのはGPT-4o
+最新のOpenAI-o1モデルは話題となったが無料で使えるのはGPT-4o。
 
 ### Claude
 https://claude.ai/
@@ -48,7 +48,7 @@ Anthropic社が開発した。くろーどと読む。Claude 3.5 Haikuなどが�
 
 ### ImageFX
 https://labs.google/fx
-で試せる。Imagen3というモデルが使える。最高性能。
+で試せる。Google製。Imagen3というモデルが使える。最高性能。
 
 ### Microsoft Copilot
 Copilotに「画像を描いて」などと頼むと、画像生成できる。
@@ -60,3 +60,9 @@ Grokも頼めば画像を作ってくれる。「今までの投稿から私の�
 ## 音楽生成AI
 ### Suno
 
+
+### MusicFX
+https://labs.google/fx/ja/tools/music-fx
+Google製。
+https://labs.google/fx/ja/tools/music-fx-dj
+でDJ風にAIでアレンジすることもできる。
