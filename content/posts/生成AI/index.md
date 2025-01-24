@@ -67,3 +67,7 @@ https://labs.google/fx/ja/tools/music-fx-dj
 でDJ風にAIでアレンジすることもできる。
 
 ## 番外編
+### NotebookLM
+https://notebooklm.google.com
+Google製。
+ウェブサイトやYoutube動画などのソースを与えると、それを元に受け答えができる、まさにAI版ノートブックのような存在。
