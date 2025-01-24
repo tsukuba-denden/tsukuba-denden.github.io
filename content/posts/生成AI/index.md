@@ -58,9 +58,12 @@ Grokも頼めば画像を作ってくれる。「今までの投稿から私の�
 ## 音楽生成AI
 ### Suno
 https://suno.com/
+言わずと知れた音楽生成AI。
 
 ### MusicFX
 https://labs.google/fx/ja/tools/music-fx
 Google製。
 https://labs.google/fx/ja/tools/music-fx-dj
 でDJ風にAIでアレンジすることもできる。
+
+## 番外編
