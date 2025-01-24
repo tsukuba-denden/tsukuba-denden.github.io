@@ -27,12 +27,17 @@ https://chat.deepseek.com/
 中華製なのでプーさんの話とかはできない。
 
 ### ChatGPT
+
 言わずとしれた有名企業、OpenAIが運営する。
 最新のOpenAI-o1モデルは話題となった。
 
 ### Claude
 https://claude.ai/
 Anthropic社が開発した。くろーどと読む。Claude 3.5 Haikuなどが使える。
+
+### Grok
+イーロン率いるxAIが開発。ツイートや画像が学習されている。
+制限が緩いのが特徴。Twitter上で利用できる。
 
 ### Gemini(gemini.google.com)
 下のaistudio.google.comの下位互換。使えるモデルが限られている。
