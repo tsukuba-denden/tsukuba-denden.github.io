@@ -50,7 +50,7 @@ https://labs.google/fx/ja/tools/image-fx
 
 ### Microsoft Copilot
 Copilotに「画像を描いて」などと頼むと、画像生成できる。
-中身はDALL-E3というオープンソースのモデル。
+中身はDALL-E3というOpenAIのモデル。
 
 ### Grok
 Grokも頼めば画像を作ってくれる。「今までの投稿から私のイメージ画像を作って」などのプロンプトが一時期流行った。
