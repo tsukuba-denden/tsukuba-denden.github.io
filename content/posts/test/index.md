@@ -243,7 +243,7 @@ With other shortcodes
 {{< /timelineItem >}}
 
 {{< timelineItem icon="github" header="ぎっとはぶ">}}
-{{< github repo="yuubinnkyoku/yuubinnkyoku" >}}
+{{< github repo="tsukuba-denden/tsukuba-denden.github.io" >}}
 {{< /timelineItem >}}
 
 {{< /timeline >}}
