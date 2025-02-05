@@ -22,12 +22,13 @@ https://aistudio.google.com
 https://chat.deepseek.com/
 
 最近出てきた、中国企業が運営するAI。OpenAI-o1と同等なのに完全無料の「DeepSeek-R1」が使える。ログインすれば使える。
-中華製なのでプーさんの話とかはできない。
+中華製なのでプーさんの話とかはできない。すごいのはオープンソースなところで、実行できる環境さえあれば誰でも安全に実行できる。
 
 ### ChatGPT
 
 言わずとしれた有名企業、OpenAIが運営する。
-最新のOpenAI-o1モデルは話題となったが無料で使えるのはGPT-4o。
+~~最新のOpenAI-o1モデルは話題となったが無料で使えるのはGPT-4o。~~
+o3-mini-lowが無料で使える。有料だがDeep Researchが高性能。
 
 ### Claude
 https://claude.ai/
