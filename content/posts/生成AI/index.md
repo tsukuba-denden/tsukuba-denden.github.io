@@ -1,7 +1,7 @@
 ---
 title: "生成AIについて"
 date: 2025-01-24
-lastmod: 2025-01-25
+lastmod: 2025-02-06
 description: "生成AIを使ってみたい"
 tags: ["AI","LLM","生成AI"]
 ---
@@ -16,7 +16,7 @@ AIを使ってみたい人向けに、2025年1月現在最新のAIを紹介し�
 ### Gemini(aistudio.google.com)
 https://aistudio.google.com
 無料で使える中ではDeepSeekと並んで最高。Googleアカウントにログインすれば使える。
-入力内容は全て学習されるので注意。
+入力内容は全て学習されるので注意。「Gemini 2.0 Pro Experimental 02-05」というモデルが使える。
 
 ### DeepSeek
 https://chat.deepseek.com/
@@ -28,11 +28,11 @@ https://chat.deepseek.com/
 
 言わずとしれた有名企業、OpenAIが運営する。
 ~~最新のOpenAI-o1モデルは話題となったが無料で使えるのはGPT-4o。~~
-o3-mini-lowが無料で使える。有料だがDeep Researchが高性能。
+「o3-mini-low」が使える。有料だがDeep Researchが高性能。
 
 ### Claude
 https://claude.ai/
-Anthropic社が開発した。くろーどと読む。Claude 3.5 Haikuなどが使える。
+Anthropic社が開発した。くろーどと読む。「Claude 3.5 Sonnet」などが使える。
 
 ### Grok
 イーロン率いるxAIが開発。ツイートや画像が学習されている。
@@ -42,12 +42,12 @@ Anthropic社が開発した。くろーどと読む。Claude 3.5 Haikuなどが�
 下のaistudio.google.comの下位互換。使えるモデルが限られている。
 
 ### Microsoft Copilot
-中身はGPT-4oと同じ。一応独自の機能も追加されていたりする。
+中身はGPT-4oやo1と同じ。一応独自の機能も追加されていたりする。
 
 ## 画像生成AI
 ### ImageFX
 https://labs.google/fx/ja/tools/image-fx
-で試せる。Google製。Imagen3というモデルが使える。最高性能。
+で試せる。Google製。Imagen3というモデルが使える。
 
 ### Microsoft Copilot
 Copilotに「画像を描いて」などと頼むと、画像生成できる。
