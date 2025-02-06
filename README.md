@@ -14,6 +14,6 @@ https://qiita.com/yuubinnkyoku_mk/items/60fb608bc006a1c19f81
 
 BlowfishはGit Submoduleでインストールされています
 ```
-git submodule update --remote --merge
+hugo mod get -u
 ```
 だけでアップデートできますやったね
