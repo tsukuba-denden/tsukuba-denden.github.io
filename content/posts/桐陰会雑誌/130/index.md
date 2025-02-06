@@ -1,6 +1,6 @@
 ---
 title: "130"
-date: 2025-02-05
+date: 2025-02-06
 description: "桐陰会雑誌 第130号"
 tags: ["Club","History"]
 series: ["桐陰会雑誌"]
