@@ -20,7 +20,7 @@
   weight = 30
 
 [[main]]
-  name = "tentative site"
+  name = "Tentative Site"
   parent = "その他"
   url = "https://tsukuba-denden.github.io/tentative/"
   weight = 30
@@ -30,6 +30,18 @@
   parent = "その他"
   pageRef = "posts/競プロ"
   weight = 30
+
+[[main]]
+  name = "旧ホームページ再現"
+  parent = "その他"
+  url = "https://tsukuba-denden.github.io/oldsite/"
+  weight = 40
+
+[[main]]
+  name = "旧ホームページ(2023)復活"
+  parent = "その他"
+  url = "https://tsukuba-denden.github.io/oldsite2/"
+  weight = 50
 
 #[[main]]
 #  name = "桐陰会雑誌"
