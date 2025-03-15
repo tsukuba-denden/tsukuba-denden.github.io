@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tsukuba-denden.github.io/sitemap.xml
