@@ -15,7 +15,7 @@ enableCodeCopy = true
 replyByEmail = false
 
 # mainSections = ["section1", "section2"]
-# robots = ""
+robots = ""
 
 disableImageZoom = false
 
