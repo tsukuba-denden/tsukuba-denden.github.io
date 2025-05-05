@@ -29,8 +29,6 @@ tags: ["Introduction", "History"]
 ### ～活動停止①
 
 {{< timeline >}}
-{{< timelineItem icon="bell" header="初の部誌「elektron」を発行" badge="1970" >}}
-{{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="「オーディオ同好会」発足、学発1位" badge="1972" subheader="後に電電へと受け継がれる" >}}
 学発1位っていうのが電研の話なのかオー研の話なのか不明なので、後日調べます
@@ -46,9 +44,6 @@ tags: ["Introduction", "History"]
 {{< /timelineItem >}}
 
 {{< timelineItem icon="xmark" header="オー研、コンピ研が同時解散" badge="1976" subheader="これらの活動は電研に大きな影響を与えた" >}}
-{{< /timelineItem >}}
-
-{{< timelineItem icon="bell" header="部誌「LSI」を発行" badge="1982" >}}
 {{< /timelineItem >}}
 
 {{< timelineItem icon="skull-crossbones" header="部員が0人となり、初の活動停止！" badge="1993" >}}
@@ -71,7 +66,7 @@ tags: ["Introduction", "History"]
 {{< timelineItem icon="star" header="「電電」と呼ばれるようになる" badge="2006" >}}
 {{< /timelineItem >}}
 
-{{< timelineItem icon="skull-crossbones" header="電電の部員が0人となり、2度目の活動停止！" badge="2010" >}}
+{{< timelineItem icon="skull-crossbones" header="部員が0人となり、2度目の活動停止！" badge="2010" >}}
 {{< /timelineItem >}}
 {{< /timeline >}}
 
@@ -104,6 +99,12 @@ tags: ["Introduction", "History"]
 
 {{< /timelineItem >}}
 
+{{< timelineItem icon="fork" header="TCAとの合同活動を開始" badge="2025?">}}
+
+高校TCAと定期的にPC室で合同活動を行うように
+
+{{< /timelineItem >}}
+
 {{< /timeline >}}
 ## 活動内容の変遷
 
@@ -124,6 +125,9 @@ tags: ["Introduction", "History"]
 この年からアマチュア無線が主な活動となっていく
 {{< /timelineItem >}}
 
+{{< timelineItem icon="bell" header="初の部誌「elektron」を発行" badge="1970" >}}
+{{< /timelineItem >}}
+
 {{< timelineItem icon="star" header="アマチュア無線局JAI-ZXSを開局" badge="1970" >}}
 {{< /timelineItem >}}
 
@@ -132,6 +136,9 @@ tags: ["Introduction", "History"]
 {{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="シンセサイザーの修理、ラジカセの制作、アマチュア無線の研究" badge="1980" >}}
+{{< /timelineItem >}}
+
+{{< timelineItem icon="bell" header="部誌「LSI」を発行" badge="1982" >}}
 {{< /timelineItem >}}
 
 {{< timelineItem icon="star" header="ポケコンの研究" badge="1982" >}}
@@ -210,7 +217,7 @@ AtCoder Junior Leagueで中学部門10位を獲得
 の画像内の紙 (ちなみに多目的室にあった)
 
 > 2024～2025年にかけて行った桐陰会雑誌の調査
-(全ての記述は[このページ]({{< ref "posts/桐陰会雑誌" >}})に)
+![(全ての記述は[このページ]({{< ref "posts/桐陰会雑誌" >}})に)]
 
 > [弊校のホームページ](https://www.high-s.tsukuba.ac.jp/jhs/introduction/education.html)
 
