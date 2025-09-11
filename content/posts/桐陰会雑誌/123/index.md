@@ -2,7 +2,7 @@
 title: "123"
 date: 2024-12-24
 description: "桐陰会雑誌 第123号"
-tags: ["Club","History"]
+tags: ["桐陰会雑誌","部誌","年次","歴史","電電","Club","History"]
 series: ["桐陰会雑誌"]
 series_order: 123
 draft: true

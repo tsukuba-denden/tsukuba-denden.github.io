@@ -3,7 +3,7 @@ title: "191"
 date: 2024-12-23
 lastmod: 2024-12-24
 description: "桐陰会雑誌 第191号"
-tags: ["Club","History"]
+tags: ["桐陰会雑誌","部誌","年次","歴史","電電","Club","History"]
 series: ["桐陰会雑誌"]
 series_order: 191
 draft: true

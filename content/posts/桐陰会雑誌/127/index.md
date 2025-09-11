@@ -2,7 +2,7 @@
 title: "127"
 date: 2025-02-05
 description: "桐陰会雑誌 第127号"
-tags: ["Club","History"]
+tags: ["桐陰会雑誌","部誌","年次","歴史","電電","Club","History"]
 series: ["桐陰会雑誌"]
 series_order: 127
 draft: true

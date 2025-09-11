@@ -3,7 +3,7 @@ title: "電電の歴史"
 date: 2024-11-28
 draft: false
 description: "電子電脳技術研究会の過去の変遷"
-tags: ["Introduction", "History"]
+tags: ["歴史","年表","電電","組織紹介","Introduction","History"]
 ---
 
 {{< lead >}}

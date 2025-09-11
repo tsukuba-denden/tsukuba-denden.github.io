@@ -3,7 +3,7 @@ title: "生成AIについて"
 date: 2025-01-24
 lastmod: 2025-02-06
 description: "生成AIを使ってみたい"
-tags: ["AI","LLM","生成AI"]
+tags: ["生成AI","AI","LLM","ツール紹介","無料サービス"]
 ---
 
 {{< lead >}}
