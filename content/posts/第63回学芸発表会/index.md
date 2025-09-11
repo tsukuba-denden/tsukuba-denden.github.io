@@ -3,7 +3,7 @@ title: "第63回学芸発表会"
 date: 2025-09-11
 lastmod: 2025-09-11T12:25:00+09:00
 description: "第63回学芸発表会（学発） 特設ページへの案内と出展概要"
-tags: ["学芸発表会","展示","イベント"]
+tags: ["学芸発表会","展示","イベント","2025","出展案内"]
 draft: false
 ---
 
@@ -36,10 +36,10 @@ draft: false
 
 ### ゲーム
  - Scratchプラフォ
- - 先輩制作作品(許可取得済) ねこまうすrunrunrun: <a href="https://toincomputerassociation.github.io/ToinFes2025/nekomouth2.html" target="_blank" rel="noopener">リンク</a>
+ - 先輩制作作品 Nekomouth らんらんrun: <a href="https://toincomputerassociation.github.io/ToinFes2025/nekomouth2.html" target="_blank" rel="noopener">リンク</a>
  その他多数
 
-## LT・実演スケジュール（案）
+## LT・実演スケジュール（予定）
 初回案と更新後案があるため両方記録。状況に応じて統一予定。
 
 ### 1日目
