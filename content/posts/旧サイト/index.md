@@ -5,7 +5,7 @@ externalUrl: "https://tsukuba-denden.github.io/oldsite/"
 summary: "ぜひご覧下さい！"
 tags: ["旧サイト","復刻","Web開発","歴史","電電"]
 showReadingTime: false
-_build:
+build:
   render: "false"
   list: "local"
 ---
