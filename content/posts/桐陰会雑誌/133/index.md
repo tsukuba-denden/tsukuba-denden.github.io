@@ -9,3 +9,6 @@ draft: true
 ---
 
 ## 電波研究会
+{{< alert icon="" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
+記載はありませんでした。
+{{< /alert >}}
