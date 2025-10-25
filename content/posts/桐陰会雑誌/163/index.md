@@ -8,4 +8,6 @@ series_order: 163
 draft: true
 ---
 
-本文は準備中です。資料の提供にご協力いただける方はご連絡ください。
+{{< alert icon="" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
+記載はありませんでした。
+{{< /alert >}}
