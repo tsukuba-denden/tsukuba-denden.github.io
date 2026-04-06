@@ -15,6 +15,12 @@
   pageRef = "posts/活動内容"
   weight = 20
 
+
+[[main]]
+  name = "桐陰会雑誌"
+  pageRef = "posts/桐陰会雑誌"
+  weight = 20
+
 [[main]]
   name = "その他"
   weight = 30
@@ -43,11 +49,11 @@
   url = "https://tsukuba-denden.github.io/oldsite2/"
   weight = 50
 
-#[[main]]
-#  name = "桐陰会雑誌"
-#  parent = "その他"
-#  pageRef = "posts/桐陰会雑誌"
-#  weight = 30
+[[main]]
+  name = "08:10に間に合う出発時刻を可視化するマップ"
+  parent = "その他"
+  url = "https://tsukuba-denden.github.io/isochrone-map/"
+  weight = 50
 
 [[main]]
   identifier = "github"
