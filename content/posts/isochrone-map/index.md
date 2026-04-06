@@ -43,3 +43,15 @@ https://tsukuba-denden.github.io/isochrone-map/
 【千葉県】浦安市、市川市、松戸市、流山市、柏市  
 【神奈川県】川崎市  
 [筑波大学附属中学校 令和８年度 生徒募集要項](https://www.high-s.tsukuba.ac.jp/jhs/tsukuba_j-info/wp-content/uploads/R8_%E7%94%9F%E5%BE%92%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf)より
+
+### 追加方法
+
+必要なのは
+駅名,緯度,経度,到着時刻の分,路線名,ID(英語名)
+任意なのは
+major: 主要駅かどうか
+route: 経路メモ
+outside: 学区外かどうか
+note: 備考
+searchDate: 調査日
+
