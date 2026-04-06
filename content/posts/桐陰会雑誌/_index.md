@@ -1,6 +1,6 @@
 ---
 title: "桐陰会雑誌"
-draft: true
+draft: false
 groupByYear: false
 cardView: true
 showSummary: true
@@ -11,7 +11,7 @@ orderByWeight: true
 これを読めば電電の歴史を完全に理解できます。
 
 - 文字起こしには、Snipping Tool、[Yomitoku](https://github.com/kotaro-kinoshita/yomitoku)、[Google AI Studio](https://aistudio.google.com)、Google画像検索 などを通じた OCR を利用しました。
-- 基本的には原文ママです。
+- 基本的には原文ママです。原文パパはいないので、原文ママはおそらくシングルマザーです
 - 但し、誤字脱字などが明らかな場合は修正しています。
 - 但し、閲覧を快適にするために、英単語と日本語の間には半角スペースを挟んでいる場合があります。
 - 本名などの個人情報は「〇〇」などの形式で伏せています。
