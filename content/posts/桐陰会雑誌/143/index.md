@@ -1,11 +1,12 @@
 ---
 title: "143"
+weight: 143
 date: 2025-10-20
 description: "桐陰会雑誌 第143号"
 tags: ["桐陰会雑誌","部誌","年次"]
 series: ["桐陰会雑誌"]
 series_order: 143
-draft: true
+draft: false
 ---
 
 

@@ -1,11 +1,12 @@
 ---
 title: "167"
+weight: 167
 date: 2025-10-25
 description: "桐陰会雑誌 第167号"
 tags: ["桐陰会雑誌","部誌","年次"]
 series: ["桐陰会雑誌"]
 series_order: 167
-draft: true
+draft: false
 ---
 ## 電波研究会
 

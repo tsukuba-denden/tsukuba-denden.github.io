@@ -1,11 +1,12 @@
 ---
 title: "172"
+weight: 172
 date: 2025-10-25
 description: "桐陰会雑誌 第172号"
 tags: ["桐陰会雑誌","部誌","年次"]
 series: ["桐陰会雑誌"]
 series_order: 172
-draft: true
+draft: false
 ---
 
 本当におつかれさま\!\!

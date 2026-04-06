@@ -1,11 +1,12 @@
 ---
 title: "141"
+weight: 141
 date: 2025-10-19
 description: "桐陰会雑誌 第141号"
 tags: ["桐陰会雑誌","部誌","年次"]
 series: ["桐陰会雑誌"]
 series_order: 141
-draft: true
+draft: false
 ---
 
 ## 電波研究会

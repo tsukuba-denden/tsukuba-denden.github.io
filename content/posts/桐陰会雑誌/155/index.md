@@ -1,11 +1,12 @@
 ---
 title: "155"
+weight: 155
 date: 2025-10-25
 description: "桐陰会雑誌 第155号"
 tags: ["桐陰会雑誌","部誌","年次"]
 series: ["桐陰会雑誌"]
 series_order: 155
-draft: true
+draft: false
 ---
 ## 電波研究会
 

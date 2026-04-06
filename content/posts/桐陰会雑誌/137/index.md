@@ -1,11 +1,12 @@
 ---
 title: "137"
+weight: 137
 date: 2025-10-10
 description: "桐陰会雑誌 第137号"
 tags: ["桐陰会雑誌","部誌","年次"]
 series: ["桐陰会雑誌"]
 series_order: 137
-draft: true
+draft: false
 ---
 
 ## 電波研究会

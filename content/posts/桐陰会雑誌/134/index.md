@@ -1,11 +1,12 @@
 ---
 title: "134"
+weight: 134
 date: 2025-10-09
 description: "桐陰会雑誌 第134号"
 tags: ["桐陰会雑誌","部誌","年次"]
 series: ["桐陰会雑誌"]
 series_order: 134
-draft: true
+draft: false
 ---
 
 ## 電波研究会

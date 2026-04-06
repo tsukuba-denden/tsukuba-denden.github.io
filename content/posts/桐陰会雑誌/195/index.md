@@ -1,12 +1,13 @@
 ---
 title: "195"
+weight: 195
 date: 2026-04-06
 lastmod: 2026-04-06
 description: "桐陰会雑誌 第195号"
 tags: ["桐陰会雑誌","部誌","年次","歴史","電電","Club","History"]
 series: ["桐陰会雑誌"]
 series_order: 195
-draft: true
+draft: false
 ---
 
 ## 電子電脳技術研究会

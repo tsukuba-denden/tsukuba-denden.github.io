@@ -1,11 +1,12 @@
 ---
 title: "142"
+weight: 142
 date: 2025-10-20
 description: "桐陰会雑誌 第142号"
 tags: ["桐陰会雑誌","部誌","年次"]
 series: ["桐陰会雑誌"]
 series_order: 142
-draft: true
+draft: false
 ---
 
 ## 電波研究会

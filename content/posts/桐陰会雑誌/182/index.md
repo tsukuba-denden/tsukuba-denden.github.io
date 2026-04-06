@@ -1,11 +1,12 @@
 ---
 title: "182"
+weight: 182
 date: 2024-12-24
 description: "桐陰会雑誌 第182号"
 tags: ["桐陰会雑誌","部誌","年次","歴史","電電","Club","History"]
 series: ["桐陰会雑誌"]
 series_order: 182
-draft: true
+draft: false
 ---
 
 ## 電子頭脳技術研究会

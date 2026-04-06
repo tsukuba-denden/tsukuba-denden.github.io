@@ -1,11 +1,12 @@
 ---
 title: "162"
+weight: 162
 date: 2025-10-25
 description: "桐陰会雑誌 第162号"
 tags: ["桐陰会雑誌","部誌","年次"]
 series: ["桐陰会雑誌"]
 series_order: 162
-draft: true
+draft: false
 ---
 
 ## 電波研究会

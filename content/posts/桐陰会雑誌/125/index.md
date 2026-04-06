@@ -1,11 +1,12 @@
 ---
 title: "125"
+weight: 125
 date: 2025-02-05
 description: "桐陰会雑誌 第125号"
 tags: ["桐陰会雑誌","部誌","年次","歴史","電電","Club","History"]
 series: ["桐陰会雑誌"]
 series_order: 125
-draft: true
+draft: false
 ---
 
 ## 電波研究会
