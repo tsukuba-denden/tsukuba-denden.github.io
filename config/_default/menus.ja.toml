@@ -19,7 +19,7 @@
 [[main]]
   name = "桐陰会雑誌"
   pageRef = "posts/桐陰会雑誌"
-  weight = 20
+  weight = 25
 
 [[main]]
   name = "その他"
@@ -50,7 +50,7 @@
   weight = 50
 
 [[main]]
-  name = "08:10に間に合う出発時刻を可視化するマップ"
+  name = "朝の連絡に間に合う出発時刻マップ"
   parent = "その他"
   url = "https://tsukuba-denden.github.io/isochrone-map/"
   weight = 60
